@@ -13,6 +13,10 @@
 		A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22829802B1149CA006A9415 /* Preview Assets.xcassets */; };
 		A22829832B1149CA006A9415 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829822B1149CA006A9415 /* Persistence.swift */; };
 		A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */; };
+		A2BF9C022B11549B0052B962 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C012B11549B0052B962 /* Model */; };
+		A2BF9C042B1154B20052B962 /* View in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C032B1154B20052B962 /* View */; };
+		A2BF9C062B1154F30052B962 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C052B1154F30052B962 /* ViewModel */; };
+		A2BF9C082B1155400052B962 /* Services in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C072B1155400052B962 /* Services */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +29,10 @@
 		A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcoGive.xcdatamodel; sourceTree = "<group>"; };
 		A22829872B1149CA006A9415 /* EcoGive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EcoGive.entitlements; sourceTree = "<group>"; };
 		A22829882B1149CA006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2BF9C012B11549B0052B962 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
+		A2BF9C032B1154B20052B962 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		A2BF9C052B1154F30052B962 /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
+		A2BF9C072B1155400052B962 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 		A22829782B1149C9006A9415 /* EcoGive */ = {
 			isa = PBXGroup;
 			children = (
+				A2BF9C072B1155400052B962 /* Services */,
+				A2BF9C052B1154F30052B962 /* ViewModel */,
+				A2BF9C032B1154B20052B962 /* View */,
+				A2BF9C012B11549B0052B962 /* Model */,
 				A22829792B1149C9006A9415 /* EcoGiveApp.swift */,
 				A228297B2B1149C9006A9415 /* ContentView.swift */,
 				A228297D2B1149CA006A9415 /* Assets.xcassets */,
@@ -135,8 +147,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2BF9C082B1155400052B962 /* Services in Resources */,
+				A2BF9C062B1154F30052B962 /* ViewModel in Resources */,
+				A2BF9C022B11549B0052B962 /* Model in Resources */,
 				A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */,
 				A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */,
+				A2BF9C042B1154B20052B962 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
