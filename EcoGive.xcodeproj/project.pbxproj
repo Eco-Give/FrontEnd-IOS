@@ -13,10 +13,10 @@
 		A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22829802B1149CA006A9415 /* Preview Assets.xcassets */; };
 		A22829832B1149CA006A9415 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829822B1149CA006A9415 /* Persistence.swift */; };
 		A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */; };
-		A2BF9C022B11549B0052B962 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C012B11549B0052B962 /* Model */; };
-		A2BF9C042B1154B20052B962 /* View in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C032B1154B20052B962 /* View */; };
-		A2BF9C062B1154F30052B962 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C052B1154F30052B962 /* ViewModel */; };
-		A2BF9C082B1155400052B962 /* Services in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C072B1155400052B962 /* Services */; };
+		A2830F2A2B139C5300120871 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F292B139C5300120871 /* Network.swift */; };
+		A2830F2C2B139C6C00120871 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2B2B139C6C00120871 /* Event.swift */; };
+		A2830F2E2B139C7E00120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2D2B139C7E00120871 /* test.swift */; };
+		A2830F302B139C8900120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2F2B139C8900120871 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,10 +29,10 @@
 		A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcoGive.xcdatamodel; sourceTree = "<group>"; };
 		A22829872B1149CA006A9415 /* EcoGive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EcoGive.entitlements; sourceTree = "<group>"; };
 		A22829882B1149CA006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2BF9C012B11549B0052B962 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		A2BF9C032B1154B20052B962 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
-		A2BF9C052B1154F30052B962 /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
-		A2BF9C072B1155400052B962 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
+		A2830F292B139C5300120871 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A2830F2B2B139C6C00120871 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A2830F2D2B139C7E00120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A2830F2F2B139C8900120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,11 +65,10 @@
 		A22829782B1149C9006A9415 /* EcoGive */ = {
 			isa = PBXGroup;
 			children = (
-				A2830F222B139B2B00120871 /* New Group */,
-				A2BF9C072B1155400052B962 /* Services */,
-				A2BF9C052B1154F30052B962 /* ViewModel */,
-				A2BF9C032B1154B20052B962 /* View */,
-				A2BF9C012B11549B0052B962 /* Model */,
+				A2830F282B139C3100120871 /* Services */,
+				A2830F272B139C2300120871 /* View */,
+				A2830F262B139C1100120871 /* Model */,
+				A2830F222B139B2B00120871 /* ViewModel */,
 				A22829792B1149C9006A9415 /* EcoGiveApp.swift */,
 				A228297B2B1149C9006A9415 /* ContentView.swift */,
 				A228297D2B1149CA006A9415 /* Assets.xcassets */,
@@ -90,11 +89,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A2830F222B139B2B00120871 /* New Group */ = {
+		A2830F222B139B2B00120871 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A2830F2D2B139C7E00120871 /* test.swift */,
 			);
-			path = "New Group";
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A2830F262B139C1100120871 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2830F2B2B139C6C00120871 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2830F272B139C2300120871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2830F2F2B139C8900120871 /* test.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2830F282B139C3100120871 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2830F292B139C5300120871 /* Network.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,12 +179,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BF9C082B1155400052B962 /* Services in Resources */,
-				A2BF9C062B1154F30052B962 /* ViewModel in Resources */,
-				A2BF9C022B11549B0052B962 /* Model in Resources */,
 				A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */,
 				A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */,
-				A2BF9C042B1154B20052B962 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,10 +191,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2830F2A2B139C5300120871 /* Network.swift in Sources */,
 				A22829832B1149CA006A9415 /* Persistence.swift in Sources */,
 				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
 				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
+				A2830F2C2B139C6C00120871 /* Event.swift in Sources */,
+				A2830F302B139C8900120871 /* test.swift in Sources */,
 				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
+				A2830F2E2B139C7E00120871 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

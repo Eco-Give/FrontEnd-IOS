@@ -6,12 +6,3 @@
 //
 
 import Foundation
-struct Network
-{ static let Base_URL = "http://localhost:3000"
-    
-    
-    
-    
- static let fetchEventUrl = Base_URL + "/events"
-    
-}
