@@ -65,6 +65,7 @@
 		A22829782B1149C9006A9415 /* EcoGive */ = {
 			isa = PBXGroup;
 			children = (
+				A2830F222B139B2B00120871 /* New Group */,
 				A2BF9C072B1155400052B962 /* Services */,
 				A2BF9C052B1154F30052B962 /* ViewModel */,
 				A2BF9C032B1154B20052B962 /* View */,
@@ -87,6 +88,13 @@
 				A22829802B1149CA006A9415 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2830F222B139B2B00120871 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
