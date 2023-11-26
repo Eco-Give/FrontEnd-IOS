@@ -15,8 +15,9 @@
 		A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */; };
 		A2830F2A2B139C5300120871 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F292B139C5300120871 /* Network.swift */; };
 		A2830F2C2B139C6C00120871 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2B2B139C6C00120871 /* Event.swift */; };
-		A2830F2E2B139C7E00120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2D2B139C7E00120871 /* test.swift */; };
-		A2830F302B139C8900120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2F2B139C8900120871 /* test.swift */; };
+		A2830F322B13BDA000120871 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F312B13BDA000120871 /* EventViewModel.swift */; };
+		A2830F342B13BE9A00120871 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F332B13BE9A00120871 /* EventView.swift */; };
+		A2830F382B13CB6400120871 /* EventRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F372B13CB6400120871 /* EventRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,8 +32,9 @@
 		A22829882B1149CA006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2830F292B139C5300120871 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		A2830F2B2B139C6C00120871 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		A2830F2D2B139C7E00120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		A2830F2F2B139C8900120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A2830F312B13BDA000120871 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		A2830F332B13BE9A00120871 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		A2830F372B13CB6400120871 /* EventRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,7 @@
 		A2830F222B139B2B00120871 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A2830F2D2B139C7E00120871 /* test.swift */,
+				A2830F312B13BDA000120871 /* EventViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -108,7 +110,8 @@
 		A2830F272B139C2300120871 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A2830F2F2B139C8900120871 /* test.swift */,
+				A2830F332B13BE9A00120871 /* EventView.swift */,
+				A2830F372B13CB6400120871 /* EventRow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -192,13 +195,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2830F2A2B139C5300120871 /* Network.swift in Sources */,
+				A2830F322B13BDA000120871 /* EventViewModel.swift in Sources */,
 				A22829832B1149CA006A9415 /* Persistence.swift in Sources */,
 				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
 				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
 				A2830F2C2B139C6C00120871 /* Event.swift in Sources */,
-				A2830F302B139C8900120871 /* test.swift in Sources */,
 				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
-				A2830F2E2B139C7E00120871 /* test.swift in Sources */,
+				A2830F382B13CB6400120871 /* EventRow.swift in Sources */,
+				A2830F342B13BE9A00120871 /* EventView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
