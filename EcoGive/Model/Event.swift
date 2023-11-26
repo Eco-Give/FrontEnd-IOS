@@ -4,9 +4,9 @@
 //
 //  Created by oumayma cherif on 26/11/2023.
 //
-
 import Foundation
 
+<<<<<<< HEAD
 struct Event: Identifiable, Hashable, Decodable {
     var id: String { _id }
 
@@ -42,3 +42,8 @@ struct Event: Identifiable, Hashable, Decodable {
     //     // Initialize other properties
     // }
 }
+=======
+struct Event : Codable Hashable
+var _id : String
+var 
+>>>>>>> parent of 5d967a2 (0.1)

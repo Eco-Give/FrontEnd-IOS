@@ -6,6 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
 class EventService {
     func fetchEvents(completion: @escaping ([Event]?) -> Void) {
         guard let url = URL(string: "https://localhost:3000/events") else {
@@ -28,4 +29,14 @@ class EventService {
             }
         }.resume()
     }
+=======
+struct Network
+{ static let Base_URL = "http://localhost:3000"
+    
+    
+    
+    
+ static let fetchEventUrl = Base_URL + "/events"
+    
+>>>>>>> parent of 5d967a2 (0.1)
 }
