@@ -93,8 +93,13 @@
 		A22829782B1149C9006A9415 /* EcoGive */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				A2830F252B139B9C00120871 /* New Group1 */,
 				A2830F222B139B2B00120871 /* New Group */,
+=======
+				A2BF9C072B1155400052B962 /* Services */,
+				A2BF9C052B1154F30052B962 /* ViewModel */,
+>>>>>>> parent of 2e6303b (1)
 				A2BF9C032B1154B20052B962 /* View */,
 				A2BF9C012B11549B0052B962 /* Model */,
 				A22829792B1149C9006A9415 /* EcoGiveApp.swift */,
@@ -117,6 +122,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		A2830F222B139B2B00120871 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +172,8 @@
 			path = "New Group1";
 			sourceTree = "<group>";
 		};
+=======
+>>>>>>> parent of 2e6303b (1)
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
