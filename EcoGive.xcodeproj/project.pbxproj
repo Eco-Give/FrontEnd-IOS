@@ -13,6 +13,13 @@
 		A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22829802B1149CA006A9415 /* Preview Assets.xcassets */; };
 		A22829832B1149CA006A9415 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829822B1149CA006A9415 /* Persistence.swift */; };
 		A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */; };
+<<<<<<< HEAD
+=======
+		A2830F2A2B139C5300120871 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F292B139C5300120871 /* Network.swift */; };
+		A2830F2C2B139C6C00120871 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2B2B139C6C00120871 /* Event.swift */; };
+		A2830F2E2B139C7E00120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2D2B139C7E00120871 /* test.swift */; };
+		A2830F302B139C8900120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2F2B139C8900120871 /* test.swift */; };
+>>>>>>> parent of c207951 (0.2)
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +32,13 @@
 		A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcoGive.xcdatamodel; sourceTree = "<group>"; };
 		A22829872B1149CA006A9415 /* EcoGive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EcoGive.entitlements; sourceTree = "<group>"; };
 		A22829882B1149CA006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		A2830F292B139C5300120871 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A2830F2B2B139C6C00120871 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A2830F2D2B139C7E00120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A2830F2F2B139C8900120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+>>>>>>> parent of c207951 (0.2)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,41 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		A2830F222B139B2B00120871 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A2830F2D2B139C7E00120871 /* test.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A2830F262B139C1100120871 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2830F2B2B139C6C00120871 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2830F272B139C2300120871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2830F2F2B139C8900120871 /* test.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2830F282B139C3100120871 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2830F292B139C5300120871 /* Network.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+>>>>>>> parent of c207951 (0.2)
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,10 +196,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				A22829832B1149CA006A9415 /* Persistence.swift in Sources */,
 				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
 				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
 				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
+=======
+				A2830F2A2B139C5300120871 /* Network.swift in Sources */,
+				A22829832B1149CA006A9415 /* Persistence.swift in Sources */,
+				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
+				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
+				A2830F2C2B139C6C00120871 /* Event.swift in Sources */,
+				A2830F302B139C8900120871 /* test.swift in Sources */,
+				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
+				A2830F2E2B139C7E00120871 /* test.swift in Sources */,
+>>>>>>> parent of c207951 (0.2)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
