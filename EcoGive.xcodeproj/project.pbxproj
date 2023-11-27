@@ -15,10 +15,16 @@
 		A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */; };
 		A2397B8C2B151535002CB7BE /* EventServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2397B8B2B151535002CB7BE /* EventServices.swift */; };
 		A2830F2A2B139C5300120871 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F292B139C5300120871 /* Network.swift */; };
+<<<<<<< HEAD
 		A2830F2C2B139C6C00120871 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2B2B139C6C00120871 /* EventModel.swift */; };
 		A2CAB7F92B15369300435C43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CAB7F82B15369300435C43 /* Preview Assets.xcassets */; };
 		A2FE2A5C2B13F7AA0060B140 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FE2A5B2B13F7AA0060B140 /* EventView.swift */; };
 		A2FE2A5E2B13F7CB0060B140 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FE2A5D2B13F7CB0060B140 /* EventViewModel.swift */; };
+=======
+		A2830F2C2B139C6C00120871 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2B2B139C6C00120871 /* Event.swift */; };
+		A2830F2E2B139C7E00120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2D2B139C7E00120871 /* test.swift */; };
+		A2830F302B139C8900120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2F2B139C8900120871 /* test.swift */; };
+>>>>>>> parent of 72a8ecf (1.1)
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,10 +41,16 @@
 		A22829882B1149CA006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2397B8B2B151535002CB7BE /* EventServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventServices.swift; sourceTree = "<group>"; };
 		A2830F292B139C5300120871 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		A2830F2B2B139C6C00120871 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
 		A2CAB7F82B15369300435C43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2FE2A5B2B13F7AA0060B140 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
 		A2FE2A5D2B13F7CB0060B140 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+=======
+		A2830F2B2B139C6C00120871 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A2830F2D2B139C7E00120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A2830F2F2B139C8900120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+>>>>>>> parent of 72a8ecf (1.1)
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +114,7 @@
 		A2830F222B139B2B00120871 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A2FE2A5D2B13F7CB0060B140 /* EventViewModel.swift */,
+				A2830F2D2B139C7E00120871 /* test.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -118,7 +130,7 @@
 		A2830F272B139C2300120871 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A2FE2A5B2B13F7AA0060B140 /* EventView.swift */,
+				A2830F2F2B139C8900120871 /* test.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -267,10 +279,16 @@
 				A22829832B1149CA006A9415 /* Persistence.swift in Sources */,
 				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
 				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
+<<<<<<< HEAD
 				A2830F2C2B139C6C00120871 /* EventModel.swift in Sources */,
 				A2FE2A5E2B13F7CB0060B140 /* EventViewModel.swift in Sources */,
 				A2FE2A5C2B13F7AA0060B140 /* EventView.swift in Sources */,
+=======
+				A2830F2C2B139C6C00120871 /* Event.swift in Sources */,
+				A2830F302B139C8900120871 /* test.swift in Sources */,
+>>>>>>> parent of 72a8ecf (1.1)
 				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
+				A2830F2E2B139C7E00120871 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
