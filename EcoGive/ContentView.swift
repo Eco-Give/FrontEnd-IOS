@@ -14,8 +14,8 @@ struct ContentView: View {
                 NavigationLink {
                     Text ("new view")
                 } label: {
-            Image(systemName:"globle").imageScale(.medium).foregroundColor(.accentColor)
-                    Text("hello, world ")
+            Image(systemName:"home").imageScale(.medium).foregroundColor(.accentColor)
+                    Text("Eco Give ")
                   }
                   }
             .padding()
