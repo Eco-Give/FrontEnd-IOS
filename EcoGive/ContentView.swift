@@ -9,19 +9,6 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
-<<<<<<< HEAD
-    var body: some View{
-        NavigationStack {
-            VStack {
-                NavigationLink {
-                    Text ("new view")
-                } label: {
-            Image(systemName:"home").imageScale(.medium).foregroundColor(.accentColor)
-                    Text("Eco Give ")
-                  }
-                  }
-            .padding()
-=======
     @Environment(\.managedObjectContext) private var viewContext
 
     @FetchRequest(
@@ -83,7 +70,6 @@ struct ContentView: View {
                 let nsError = error as NSError
                 fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
             }
->>>>>>> parent of 72a8ecf (1.1)
         }
     }
 }

@@ -6,12 +6,3 @@
 //
 
 import Foundation
-import SwiftUI
-
-struct Network {
-    static let BASE_URL = "http://localhost:3000"
-    
-    
-    static let fetchEventUrl = BASE_URL + "/events"
-       
-   }
