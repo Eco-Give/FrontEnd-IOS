@@ -7,157 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829792B1149C9006A9415 /* EcoGiveApp.swift */; };
-		A228297C2B1149C9006A9415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228297B2B1149C9006A9415 /* ContentView.swift */; };
-		A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A228297D2B1149CA006A9415 /* Assets.xcassets */; };
-		A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22829802B1149CA006A9415 /* Preview Assets.xcassets */; };
-		A22829832B1149CA006A9415 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829822B1149CA006A9415 /* Persistence.swift */; };
-		A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */; };
-		A2830F2A2B139C5300120871 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F292B139C5300120871 /* Network.swift */; };
-		A2830F2C2B139C6C00120871 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2B2B139C6C00120871 /* Event.swift */; };
-		A2830F2E2B139C7E00120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2D2B139C7E00120871 /* test.swift */; };
-		A2830F302B139C8900120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2F2B139C8900120871 /* test.swift */; };
+		1C0F86EA2B1664770065DF1C /* mapViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F86E92B1664770065DF1C /* mapViewApp.swift */; };
+		1C0F86EC2B1664770065DF1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F86EB2B1664770065DF1C /* ContentView.swift */; };
+		1C0F86EE2B1664780065DF1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0F86ED2B1664780065DF1C /* Assets.xcassets */; };
+		1C0F86F12B1664780065DF1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C0F86F02B1664780065DF1C /* Preview Assets.xcassets */; };
+		1C0F86FB2B167AC90065DF1C /* MapboxMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 1C0F86FA2B167AC90065DF1C /* MapboxMaps */; };
+		1C0F87022B1685DC0065DF1C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F87012B1685DC0065DF1C /* Location.swift */; };
+		1C0F87062B1686400065DF1C /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F87052B1686400065DF1C /* LocationViewModel.swift */; };
+		1C0F87082B1686680065DF1C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F87072B1686680065DF1C /* NetworkManager.swift */; };
+		1C0F870D2B1686D50065DF1C /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F870C2B1686D50065DF1C /* map.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A22829762B1149C9006A9415 /* EcoGive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoGive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A22829792B1149C9006A9415 /* EcoGiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoGiveApp.swift; sourceTree = "<group>"; };
-		A228297B2B1149C9006A9415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A228297D2B1149CA006A9415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A22829802B1149CA006A9415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A22829822B1149CA006A9415 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcoGive.xcdatamodel; sourceTree = "<group>"; };
-		A22829872B1149CA006A9415 /* EcoGive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EcoGive.entitlements; sourceTree = "<group>"; };
-		A22829882B1149CA006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2830F292B139C5300120871 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		A2830F2B2B139C6C00120871 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
-		A2830F2D2B139C7E00120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		A2830F2F2B139C8900120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		1C0F86E62B1664770065DF1C /* mapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0F86E92B1664770065DF1C /* mapViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewApp.swift; sourceTree = "<group>"; };
+		1C0F86EB2B1664770065DF1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C0F86ED2B1664780065DF1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C0F86F02B1664780065DF1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C0F86F72B1665B60065DF1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1C0F87012B1685DC0065DF1C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		1C0F87052B1686400065DF1C /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		1C0F87072B1686680065DF1C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1C0F870C2B1686D50065DF1C /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A22829732B1149C9006A9415 /* Frameworks */ = {
+		1C0F86E32B1664770065DF1C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0F86FB2B167AC90065DF1C /* MapboxMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A228296D2B1149C9006A9415 = {
+		1C0F86DD2B1664770065DF1C = {
 			isa = PBXGroup;
 			children = (
-				A22829782B1149C9006A9415 /* EcoGive */,
-				A22829772B1149C9006A9415 /* Products */,
+				1C0F86E82B1664770065DF1C /* mapView */,
+				1C0F86E72B1664770065DF1C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A22829772B1149C9006A9415 /* Products */ = {
+		1C0F86E72B1664770065DF1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A22829762B1149C9006A9415 /* EcoGive.app */,
+				1C0F86E62B1664770065DF1C /* mapView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A22829782B1149C9006A9415 /* EcoGive */ = {
+		1C0F86E82B1664770065DF1C /* mapView */ = {
 			isa = PBXGroup;
 			children = (
-				A2830F282B139C3100120871 /* Services */,
-				A2830F272B139C2300120871 /* View */,
-				A2830F262B139C1100120871 /* Model */,
-				A2830F222B139B2B00120871 /* ViewModel */,
-				A22829792B1149C9006A9415 /* EcoGiveApp.swift */,
-				A228297B2B1149C9006A9415 /* ContentView.swift */,
-				A228297D2B1149CA006A9415 /* Assets.xcassets */,
-				A22829822B1149CA006A9415 /* Persistence.swift */,
-				A22829872B1149CA006A9415 /* EcoGive.entitlements */,
-				A22829882B1149CA006A9415 /* Info.plist */,
-				A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */,
-				A228297F2B1149CA006A9415 /* Preview Content */,
+				1C0F87092B1686BA0065DF1C /* View */,
+				1C0F87002B1685C10065DF1C /* ViewModel */,
+				1C0F86FF2B16859E0065DF1C /* Model */,
+				1C0F86F72B1665B60065DF1C /* Info.plist */,
+				1C0F86E92B1664770065DF1C /* mapViewApp.swift */,
+				1C0F86EB2B1664770065DF1C /* ContentView.swift */,
+				1C0F86ED2B1664780065DF1C /* Assets.xcassets */,
+				1C0F86EF2B1664780065DF1C /* Preview Content */,
 			);
-			path = EcoGive;
+			path = mapView;
 			sourceTree = "<group>";
 		};
-		A228297F2B1149CA006A9415 /* Preview Content */ = {
+		1C0F86EF2B1664780065DF1C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A22829802B1149CA006A9415 /* Preview Assets.xcassets */,
+				1C0F86F02B1664780065DF1C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A2830F222B139B2B00120871 /* ViewModel */ = {
+		1C0F86FF2B16859E0065DF1C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A2830F2D2B139C7E00120871 /* test.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		A2830F262B139C1100120871 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A2830F2B2B139C6C00120871 /* Event.swift */,
+				1C0F87012B1685DC0065DF1C /* Location.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		A2830F272B139C2300120871 /* View */ = {
+		1C0F87002B1685C10065DF1C /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A2830F2F2B139C8900120871 /* test.swift */,
+				1C0F87052B1686400065DF1C /* LocationViewModel.swift */,
+				1C0F87072B1686680065DF1C /* NetworkManager.swift */,
 			);
-			path = View;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		A2830F282B139C3100120871 /* Services */ = {
+		1C0F87092B1686BA0065DF1C /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A2830F292B139C5300120871 /* Network.swift */,
+				1C0F870C2B1686D50065DF1C /* map.swift */,
 			);
-			path = Services;
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A22829752B1149C9006A9415 /* EcoGive */ = {
+		1C0F86E52B1664770065DF1C /* mapView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A228298B2B1149CA006A9415 /* Build configuration list for PBXNativeTarget "EcoGive" */;
+			buildConfigurationList = 1C0F86F42B1664780065DF1C /* Build configuration list for PBXNativeTarget "mapView" */;
 			buildPhases = (
-				A22829722B1149C9006A9415 /* Sources */,
-				A22829732B1149C9006A9415 /* Frameworks */,
-				A22829742B1149C9006A9415 /* Resources */,
+				1C0F86E22B1664770065DF1C /* Sources */,
+				1C0F86E32B1664770065DF1C /* Frameworks */,
+				1C0F86E42B1664770065DF1C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = EcoGive;
-			productName = EcoGive;
-			productReference = A22829762B1149C9006A9415 /* EcoGive.app */;
+			name = mapView;
+			packageProductDependencies = (
+				1C0F86FA2B167AC90065DF1C /* MapboxMaps */,
+			);
+			productName = mapView;
+			productReference = 1C0F86E62B1664770065DF1C /* mapView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A228296E2B1149C9006A9415 /* Project object */ = {
+		1C0F86DE2B1664770065DF1C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+<<<<<<< Updated upstream:EcoGive.xcodeproj/project.pbxproj
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = bilel;
+=======
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+>>>>>>> Stashed changes:mapView.xcodeproj/project.pbxproj
 				TargetAttributes = {
-					A22829752B1149C9006A9415 = {
-						CreatedOnToolsVersion = 15.0.1;
+					1C0F86E52B1664770065DF1C = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
-			buildConfigurationList = A22829712B1149C9006A9415 /* Build configuration list for PBXProject "EcoGive" */;
+			buildConfigurationList = 1C0F86E12B1664770065DF1C /* Build configuration list for PBXProject "mapView" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -165,52 +159,52 @@
 				en,
 				Base,
 			);
-			mainGroup = A228296D2B1149C9006A9415;
-			productRefGroup = A22829772B1149C9006A9415 /* Products */;
+			mainGroup = 1C0F86DD2B1664770065DF1C;
+			packageReferences = (
+				1C0F86F92B167AC90065DF1C /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */,
+			);
+			productRefGroup = 1C0F86E72B1664770065DF1C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A22829752B1149C9006A9415 /* EcoGive */,
+				1C0F86E52B1664770065DF1C /* mapView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A22829742B1149C9006A9415 /* Resources */ = {
+		1C0F86E42B1664770065DF1C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */,
-				A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */,
+				1C0F86F12B1664780065DF1C /* Preview Assets.xcassets in Resources */,
+				1C0F86EE2B1664780065DF1C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A22829722B1149C9006A9415 /* Sources */ = {
+		1C0F86E22B1664770065DF1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2830F2A2B139C5300120871 /* Network.swift in Sources */,
-				A22829832B1149CA006A9415 /* Persistence.swift in Sources */,
-				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
-				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
-				A2830F2C2B139C6C00120871 /* Event.swift in Sources */,
-				A2830F302B139C8900120871 /* test.swift in Sources */,
-				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
-				A2830F2E2B139C7E00120871 /* test.swift in Sources */,
+				1C0F870D2B1686D50065DF1C /* map.swift in Sources */,
+				1C0F86EC2B1664770065DF1C /* ContentView.swift in Sources */,
+				1C0F87022B1685DC0065DF1C /* Location.swift in Sources */,
+				1C0F87082B1686680065DF1C /* NetworkManager.swift in Sources */,
+				1C0F86EA2B1664770065DF1C /* mapViewApp.swift in Sources */,
+				1C0F87062B1686400065DF1C /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A22829892B1149CA006A9415 /* Debug */ = {
+		1C0F86F22B1664780065DF1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -243,8 +237,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -258,22 +251,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A228298A2B1149CA006A9415 /* Release */ = {
+		1C0F86F32B1664780065DF1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -306,8 +297,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -315,29 +305,32 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A228298C2B1149CA006A9415 /* Debug */ = {
+		1C0F86F52B1664780065DF1C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = EcoGive/EcoGive.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+<<<<<<< Updated upstream:EcoGive.xcodeproj/project.pbxproj
 				DEVELOPMENT_ASSET_PATHS = "\"EcoGive/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
+=======
+				DEVELOPMENT_ASSET_PATHS = "\"mapView/Preview Content\"";
+>>>>>>> Stashed changes:mapView.xcodeproj/project.pbxproj
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EcoGive/Info.plist;
+				INFOPLIST_FILE = mapView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -348,7 +341,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = oumayma.EcoGive;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.mapView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -356,19 +349,22 @@
 			};
 			name = Debug;
 		};
-		A228298D2B1149CA006A9415 /* Release */ = {
+		1C0F86F62B1664780065DF1C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = EcoGive/EcoGive.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+<<<<<<< Updated upstream:EcoGive.xcodeproj/project.pbxproj
 				DEVELOPMENT_ASSET_PATHS = "\"EcoGive/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
+=======
+				DEVELOPMENT_ASSET_PATHS = "\"mapView/Preview Content\"";
+>>>>>>> Stashed changes:mapView.xcodeproj/project.pbxproj
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = EcoGive/Info.plist;
+				INFOPLIST_FILE = mapView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -379,7 +375,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = oumayma.EcoGive;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.mapView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -390,38 +386,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A22829712B1149C9006A9415 /* Build configuration list for PBXProject "EcoGive" */ = {
+		1C0F86E12B1664770065DF1C /* Build configuration list for PBXProject "mapView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A22829892B1149CA006A9415 /* Debug */,
-				A228298A2B1149CA006A9415 /* Release */,
+				1C0F86F22B1664780065DF1C /* Debug */,
+				1C0F86F32B1664780065DF1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A228298B2B1149CA006A9415 /* Build configuration list for PBXNativeTarget "EcoGive" */ = {
+		1C0F86F42B1664780065DF1C /* Build configuration list for PBXNativeTarget "mapView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A228298C2B1149CA006A9415 /* Debug */,
-				A228298D2B1149CA006A9415 /* Release */,
+				1C0F86F52B1664780065DF1C /* Debug */,
+				1C0F86F62B1664780065DF1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCVersionGroup section */
-		A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */,
-			);
-			currentVersion = A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */;
-			path = EcoGive.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
+/* Begin XCRemoteSwiftPackageReference section */
+		1C0F86F92B167AC90065DF1C /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mapbox/mapbox-maps-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.16.2;
+			};
 		};
-/* End XCVersionGroup section */
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C0F86FA2B167AC90065DF1C /* MapboxMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1C0F86F92B167AC90065DF1C /* XCRemoteSwiftPackageReference "mapbox-maps-ios" */;
+			productName = MapboxMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = A228296E2B1149C9006A9415 /* Project object */;
+	rootObject = 1C0F86DE2B1664770065DF1C /* Project object */;
 }
