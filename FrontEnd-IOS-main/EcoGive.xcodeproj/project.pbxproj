@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529699E92B16693100E4327C /* RecDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529699E82B16693100E4327C /* RecDisplay.swift */; };
 		A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829792B1149C9006A9415 /* EcoGiveApp.swift */; };
 		A228297C2B1149C9006A9415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228297B2B1149C9006A9415 /* ContentView.swift */; };
 		A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A228297D2B1149CA006A9415 /* Assets.xcassets */; };
@@ -16,10 +17,10 @@
 		A2830F2A2B139C5300120871 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F292B139C5300120871 /* Network.swift */; };
 		A2830F2C2B139C6C00120871 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2B2B139C6C00120871 /* Event.swift */; };
 		A2830F2E2B139C7E00120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2D2B139C7E00120871 /* test.swift */; };
-		A2830F302B139C8900120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2F2B139C8900120871 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		529699E82B16693100E4327C /* RecDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecDisplay.swift; sourceTree = "<group>"; };
 		A22829762B1149C9006A9415 /* EcoGive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoGive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22829792B1149C9006A9415 /* EcoGiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoGiveApp.swift; sourceTree = "<group>"; };
 		A228297B2B1149C9006A9415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		A2830F292B139C5300120871 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		A2830F2B2B139C6C00120871 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		A2830F2D2B139C7E00120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		A2830F2F2B139C8900120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		A2830F272B139C2300120871 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A2830F2F2B139C8900120871 /* test.swift */,
+				529699E82B16693100E4327C /* RecDisplay.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -196,7 +196,7 @@
 				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
 				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
 				A2830F2C2B139C6C00120871 /* Event.swift in Sources */,
-				A2830F302B139C8900120871 /* test.swift in Sources */,
+				529699E92B16693100E4327C /* RecDisplay.swift in Sources */,
 				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
 				A2830F2E2B139C7E00120871 /* test.swift in Sources */,
 			);
