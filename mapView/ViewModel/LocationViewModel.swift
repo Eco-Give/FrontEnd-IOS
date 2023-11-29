@@ -15,6 +15,7 @@ class LocationViewModel: ObservableObject {
             case .success(let location):
                 DispatchQueue.main.async {
                     self?.location = location
+                    print("fetched location : \(location)")
                 }
             case .failure(let error):
                 // Handle error, update UI accordingly

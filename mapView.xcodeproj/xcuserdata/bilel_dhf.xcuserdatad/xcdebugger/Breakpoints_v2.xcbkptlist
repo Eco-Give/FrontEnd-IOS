@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "044F24C8-F492-4D9C-B14F-799DA973E5A3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9D0C494E-B9B6-43E6-BBF1-423EFAE648F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mapView/ViewModel/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "getlocation(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9D0C494E-B9B6-43E6-BBF1-423EFAE648F5 - 9658cfd491bd385c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mapView.NetworkManager.getlocation(completion: (Swift.Result&lt;Swift.Array&lt;mapView.Location&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "mapView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilel_dhf/Desktop/mapView%202/mapView/ViewModel/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "9D0C494E-B9B6-43E6-BBF1-423EFAE648F5 - 9658cfd491bd385c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mapView.NetworkManager.getlocation(completion: (Swift.Result&lt;Swift.Array&lt;mapView.Location&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "mapView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilel_dhf/Desktop/mapView%202/mapView/ViewModel/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "9D0C494E-B9B6-43E6-BBF1-423EFAE648F5 - 9658cfd491bd385c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "mapView.NetworkManager.getlocation(completion: (Swift.Result&lt;Swift.Array&lt;mapView.Location&gt;, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "mapView"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bilel_dhf/Desktop/mapView%202/mapView/ViewModel/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "1048">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -25,7 +25,9 @@ struct map: View {
                 Text("rue imem sahnoun, 9170")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
+                    .padding(.bottom)
             }
+           
                 .frame(maxWidth: .infinity)
                 .background(Color.blue)
              
@@ -83,23 +85,23 @@ struct map: View {
             
             Divider()
             // END description
-            VStack(alignment: .leading,spacing: 8){
+            VStack(alignment: .leading,spacing: 17){
                 HStack {
-                    Image(systemName: "lovscation")
+                    Image(systemName: "calendar")
                         .foregroundColor(.secondary)
-                    Text("3794 Pretty View Lane")
+                    Text("Closed Open 7 AM")
                         .foregroundColor(.primary)
                 }
                 HStack {
                     Image(systemName: "phone")
                         .foregroundColor(.secondary)
-                    Text("(555) 555-1212")
+                    Text("+216 53 96 22 24")
                         .foregroundColor(.primary)
                 }
                 HStack() {
                     Image(systemName: "network")
                         .foregroundColor(.secondary)
-                    Text("thecornercafe.biz")
+                    Text("Esprit.tn")
                         .foregroundColor(.primary)
                 }
                 
@@ -108,7 +110,7 @@ struct map: View {
                
                 location in
                 VStack{
-                    Text(location.adresse)
+                    Text(location.name)
                 }
                
 
@@ -124,7 +126,7 @@ struct map: View {
       
 }
     
-    /*struct ContentView_Previews: PreviewProvider {
+   /* struct ContentView_Previews: PreviewProvider {
         static var previews: some View {
             ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
         }

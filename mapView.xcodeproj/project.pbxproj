@@ -16,6 +16,8 @@
 		1C0F87062B1686400065DF1C /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F87052B1686400065DF1C /* LocationViewModel.swift */; };
 		1C0F87082B1686680065DF1C /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F87072B1686680065DF1C /* NetworkManager.swift */; };
 		1C0F870D2B1686D50065DF1C /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0F870C2B1686D50065DF1C /* map.swift */; };
+		5D7EC1D22B179E4C00E02D9A /* mapBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7EC1D12B179E4C00E02D9A /* mapBoxView.swift */; };
+		5D7EC1D62B17E84400E02D9A /* annotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7EC1D52B17E84400E02D9A /* annotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		1C0F87052B1686400065DF1C /* LocationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
 		1C0F87072B1686680065DF1C /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1C0F870C2B1686D50065DF1C /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		5D7EC1D12B179E4C00E02D9A /* mapBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapBoxView.swift; sourceTree = "<group>"; };
+		5D7EC1D52B17E84400E02D9A /* annotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = annotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				1C0F870C2B1686D50065DF1C /* map.swift */,
+				5D7EC1D12B179E4C00E02D9A /* mapBoxView.swift */,
+				5D7EC1D52B17E84400E02D9A /* annotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,14 +143,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-<<<<<<< Updated upstream:EcoGive.xcodeproj/project.pbxproj
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
-				ORGANIZATIONNAME = bilel;
-=======
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
->>>>>>> Stashed changes:mapView.xcodeproj/project.pbxproj
 				TargetAttributes = {
 					1C0F86E52B1664770065DF1C = {
 						CreatedOnToolsVersion = 14.1;
@@ -193,6 +193,8 @@
 				1C0F86EC2B1664770065DF1C /* ContentView.swift in Sources */,
 				1C0F87022B1685DC0065DF1C /* Location.swift in Sources */,
 				1C0F87082B1686680065DF1C /* NetworkManager.swift in Sources */,
+				5D7EC1D22B179E4C00E02D9A /* mapBoxView.swift in Sources */,
+				5D7EC1D62B17E84400E02D9A /* annotationView.swift in Sources */,
 				1C0F86EA2B1664770065DF1C /* mapViewApp.swift in Sources */,
 				1C0F87062B1686400065DF1C /* LocationViewModel.swift in Sources */,
 			);
@@ -322,12 +324,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-<<<<<<< Updated upstream:EcoGive.xcodeproj/project.pbxproj
-				DEVELOPMENT_ASSET_PATHS = "\"EcoGive/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-=======
 				DEVELOPMENT_ASSET_PATHS = "\"mapView/Preview Content\"";
->>>>>>> Stashed changes:mapView.xcodeproj/project.pbxproj
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = mapView/Info.plist;
@@ -356,12 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-<<<<<<< Updated upstream:EcoGive.xcodeproj/project.pbxproj
-				DEVELOPMENT_ASSET_PATHS = "\"EcoGive/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
-=======
 				DEVELOPMENT_ASSET_PATHS = "\"mapView/Preview Content\"";
->>>>>>> Stashed changes:mapView.xcodeproj/project.pbxproj
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = mapView/Info.plist;
