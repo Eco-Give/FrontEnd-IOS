@@ -7,19 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6DAF7AA12B17BA3200305901 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AA02B17BA3200305901 /* Color.swift */; };
+		6DAF7AA72B17BF5A00305901 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AA62B17BF5A00305901 /* Reward.swift */; };
+		6DAF7AA92B17BFC700305901 /* ProgressGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AA82B17BFC700305901 /* ProgressGoalView.swift */; };
+		6DAF7AAB2B17C20600305901 /* HealthStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AAA2B17C20600305901 /* HealthStore.swift */; };
+		6DAF7AAD2B17C2C800305901 /* StepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AAC2B17C2C700305901 /* StepData.swift */; };
+		6DAF7AAF2B17C33A00305901 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AAE2B17C33A00305901 /* DataItem.swift */; };
+		6DAF7AB12B17C37A00305901 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB02B17C37A00305901 /* DataModel.swift */; };
+		6DAF7AB32B17C44D00305901 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB22B17C44D00305901 /* TopBarView.swift */; };
+		6DAF7AB52B17C72400305901 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB42B17C72400305901 /* StatsView.swift */; };
+		6DAF7AB72B17C76E00305901 /* DataItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB62B17C76E00305901 /* DataItemView.swift */; };
+		6DAF7AB92B17C79A00305901 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB82B17C79A00305901 /* BottomNavBar.swift */; };
 		A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829792B1149C9006A9415 /* EcoGiveApp.swift */; };
 		A228297C2B1149C9006A9415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228297B2B1149C9006A9415 /* ContentView.swift */; };
 		A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A228297D2B1149CA006A9415 /* Assets.xcassets */; };
 		A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22829802B1149CA006A9415 /* Preview Assets.xcassets */; };
 		A22829832B1149CA006A9415 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829822B1149CA006A9415 /* Persistence.swift */; };
 		A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */; };
-		A2BF9C022B11549B0052B962 /* Model in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C012B11549B0052B962 /* Model */; };
-		A2BF9C042B1154B20052B962 /* View in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C032B1154B20052B962 /* View */; };
-		A2BF9C062B1154F30052B962 /* ViewModel in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C052B1154F30052B962 /* ViewModel */; };
-		A2BF9C082B1155400052B962 /* Services in Resources */ = {isa = PBXBuildFile; fileRef = A2BF9C072B1155400052B962 /* Services */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6DAF7AA02B17BA3200305901 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		6DAF7AA62B17BF5A00305901 /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		6DAF7AA82B17BFC700305901 /* ProgressGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressGoalView.swift; sourceTree = "<group>"; };
+		6DAF7AAA2B17C20600305901 /* HealthStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStore.swift; sourceTree = "<group>"; };
+		6DAF7AAC2B17C2C700305901 /* StepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepData.swift; sourceTree = "<group>"; };
+		6DAF7AAE2B17C33A00305901 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		6DAF7AB02B17C37A00305901 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		6DAF7AB22B17C44D00305901 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		6DAF7AB42B17C72400305901 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		6DAF7AB62B17C76E00305901 /* DataItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemView.swift; sourceTree = "<group>"; };
+		6DAF7AB82B17C79A00305901 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
 		A22829762B1149C9006A9415 /* EcoGive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoGive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22829792B1149C9006A9415 /* EcoGiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoGiveApp.swift; sourceTree = "<group>"; };
 		A228297B2B1149C9006A9415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,10 +47,6 @@
 		A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcoGive.xcdatamodel; sourceTree = "<group>"; };
 		A22829872B1149CA006A9415 /* EcoGive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EcoGive.entitlements; sourceTree = "<group>"; };
 		A22829882B1149CA006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2BF9C012B11549B0052B962 /* Model */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Model; sourceTree = "<group>"; };
-		A2BF9C032B1154B20052B962 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
-		A2BF9C052B1154F30052B962 /* ViewModel */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModel; sourceTree = "<group>"; };
-		A2BF9C072B1155400052B962 /* Services */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Services; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +60,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6DAF7A9F2B17B9E500305901 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF7AA02B17BA3200305901 /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6DAF7AA22B17BE9900305901 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF7AAA2B17C20600305901 /* HealthStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6DAF7AA32B17BEB000305901 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6DAF7AA42B17BECC00305901 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF7AAC2B17C2C700305901 /* StepData.swift */,
+				6DAF7AAE2B17C33A00305901 /* DataItem.swift */,
+				6DAF7AB02B17C37A00305901 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DAF7AA52B17BF4000305901 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DAF7AA62B17BF5A00305901 /* Reward.swift */,
+				6DAF7AA82B17BFC700305901 /* ProgressGoalView.swift */,
+				6DAF7AB22B17C44D00305901 /* TopBarView.swift */,
+				6DAF7AB42B17C72400305901 /* StatsView.swift */,
+				6DAF7AB62B17C76E00305901 /* DataItemView.swift */,
+				6DAF7AB82B17C79A00305901 /* BottomNavBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A228296D2B1149C9006A9415 = {
 			isa = PBXGroup;
 			children = (
@@ -65,10 +125,11 @@
 		A22829782B1149C9006A9415 /* EcoGive */ = {
 			isa = PBXGroup;
 			children = (
-				A2BF9C072B1155400052B962 /* Services */,
-				A2BF9C052B1154F30052B962 /* ViewModel */,
-				A2BF9C032B1154B20052B962 /* View */,
-				A2BF9C012B11549B0052B962 /* Model */,
+				6DAF7AA52B17BF4000305901 /* View */,
+				6DAF7AA42B17BECC00305901 /* Model */,
+				6DAF7AA32B17BEB000305901 /* ViewModel */,
+				6DAF7AA22B17BE9900305901 /* Services */,
+				6DAF7A9F2B17B9E500305901 /* Extensions */,
 				A22829792B1149C9006A9415 /* EcoGiveApp.swift */,
 				A228297B2B1149C9006A9415 /* ContentView.swift */,
 				A228297D2B1149CA006A9415 /* Assets.xcassets */,
@@ -147,12 +208,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2BF9C082B1155400052B962 /* Services in Resources */,
-				A2BF9C062B1154F30052B962 /* ViewModel in Resources */,
-				A2BF9C022B11549B0052B962 /* Model in Resources */,
 				A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */,
 				A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */,
-				A2BF9C042B1154B20052B962 /* View in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,10 +220,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DAF7AAF2B17C33A00305901 /* DataItem.swift in Sources */,
 				A22829832B1149CA006A9415 /* Persistence.swift in Sources */,
+				6DAF7AB12B17C37A00305901 /* DataModel.swift in Sources */,
+				6DAF7AAD2B17C2C800305901 /* StepData.swift in Sources */,
+				6DAF7AAB2B17C20600305901 /* HealthStore.swift in Sources */,
 				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
+				6DAF7AA92B17BFC700305901 /* ProgressGoalView.swift in Sources */,
 				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
+				6DAF7AB92B17C79A00305901 /* BottomNavBar.swift in Sources */,
 				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
+				6DAF7AB72B17C76E00305901 /* DataItemView.swift in Sources */,
+				6DAF7AB52B17C72400305901 /* StatsView.swift in Sources */,
+				6DAF7AA72B17BF5A00305901 /* Reward.swift in Sources */,
+				6DAF7AB32B17C44D00305901 /* TopBarView.swift in Sources */,
+				6DAF7AA12B17BA3200305901 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,10 +369,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoGive/Preview Content\"";
-				DEVELOPMENT_TEAM = 2JM5G466XH;
+				DEVELOPMENT_TEAM = DT48676AYG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EcoGive/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "this app requires perm";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "this app requires perm";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -315,7 +385,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = oumayma.EcoGive;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.EcoGive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -332,10 +402,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoGive/Preview Content\"";
-				DEVELOPMENT_TEAM = 2JM5G466XH;
+				DEVELOPMENT_TEAM = DT48676AYG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EcoGive/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "this app requires perm";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "this app requires perm";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -346,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = oumayma.EcoGive;
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.EcoGive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
