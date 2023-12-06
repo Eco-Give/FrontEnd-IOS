@@ -11,13 +11,13 @@ class NetworkManager {
     static let shared = NetworkManager()
 
     func getlocation(completion: @escaping (Result<[Location], Error>) -> Void) {
-        let urlString = "http://172.18.14.229:9090/getall"
+        let urlString = "http://172.20.10.2:9090/getall"
         guard let url = URL(string: urlString) else { return }
             var request = URLRequest(url: url)
         
         request.cachePolicy = .reloadRevalidatingCacheData
         request.addValue("no-cache", forHTTPHeaderField: "Cache-Control")
-        
+    
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {

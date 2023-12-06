@@ -1,12 +1,13 @@
 import SwiftUI
-import MapboxMaps
 
 // ContentView
 struct ContentView: View {
     var body: some View {
         //mapBoxView()
-       //map()
-        annotationView()
+         //map()
+        //annotationView()
+       mapView()
+              
     }
 }
 
@@ -14,5 +15,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        
     }
-}
+}	
+

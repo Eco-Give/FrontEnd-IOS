@@ -1,13 +1,13 @@
-//////
+//
 //  Location.swift
 //  mapView
-////
+//
 //  Created by bilel dhif on 28/11/2023.
-////
+//
 
 import Foundation
 
-struct Location: Codable, Identifiable {
+struct Location: Codable, Identifiable,Equatable {
     var id: String
     var name: String
     var lat: Double

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct map: View {
-    @ObservedObject var ViewModel = LocationViewModel()
+    //@ObservedObject var ViewModel = LocationViewModel()
     
     var body: some View {
         VStack(spacing: 20.0) {

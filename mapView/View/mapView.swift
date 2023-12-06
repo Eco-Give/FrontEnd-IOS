@@ -5,11 +5,20 @@
 //  Created by MacBook Pro on 1/12/2023.
 //
 
+// ContentView.swift
+
 import SwiftUI
 
 struct mapView: View {
+    @State private var locations: [Location] = []
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        MapboxMapView(locations: locations)
+            .onAppear {
+                LocationService.fetchLocations { fetchedLocations in
+                    self.locations = fetchedLocations
+                }
+            }
     }
 }
 

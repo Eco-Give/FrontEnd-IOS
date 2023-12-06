@@ -5,13 +5,6 @@
 //  Created by bilel_dhf on 29/11/2023.
 //
 
-//
-//  mapBoxView.swift
-//  mapView
-//
-//  Created by bilel_dhf on 29/11/2023.
-//
-
 import SwiftUI
 import MapboxMaps
 

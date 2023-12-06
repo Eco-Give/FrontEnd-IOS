@@ -1,23 +1,17 @@
-//
-//  SearchBar.swift
-//  mapView
-//
-//  Created by MacBook Pro on 3/12/2023.
-//
-
 import SwiftUI
 
-struct SearchBar: View {
-    @Binding var text: String
-    var onSearch: (String) -> Void
+struct SearchBarView: View {
+    @Binding var searchText: String
+    var onSearch: () -> Void
 
     var body: some View {
-        TextField("Search", text: $text, onCommit: {
-            onSearch(text)
-        })
-        .textFieldStyle(RoundedBorderTextFieldStyle())
-        .background(Color.white)
-        .cornerRadius(8)
-        .shadow(radius: 3)
+        TextField("Search by name", text: $searchText)
+            .textFieldStyle(RoundedBorderTextFieldStyle())
+            .padding()
+           // .background(Color.white.opacity(0.9))
+            .cornerRadius(8)
+            .padding(.horizontal)
+            .shadow(radius: 3)
+            .onSubmit(onSearch) // This triggers the search when the user presses return
     }
 }
