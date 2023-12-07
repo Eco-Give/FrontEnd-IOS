@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D3C164F2B2142DE0026CCD9 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C164E2B2142DE0026CCD9 /* Activity.swift */; };
+		6D3C16532B217FBA0026CCD9 /* ActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C16522B217FBA0026CCD9 /* ActivityListView.swift */; };
+		6D3C16552B2180CC0026CCD9 /* ActivityListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C16542B2180CC0026CCD9 /* ActivityListViewModel.swift */; };
+		6D3C16572B21C2260026CCD9 /* ActivityBottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C16562B21C2260026CCD9 /* ActivityBottomSheetView.swift */; };
 		6DAF7AA12B17BA3200305901 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AA02B17BA3200305901 /* Color.swift */; };
 		6DAF7AA72B17BF5A00305901 /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AA62B17BF5A00305901 /* Reward.swift */; };
 		6DAF7AA92B17BFC700305901 /* ProgressGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AA82B17BFC700305901 /* ProgressGoalView.swift */; };
@@ -17,7 +21,8 @@
 		6DAF7AB32B17C44D00305901 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB22B17C44D00305901 /* TopBarView.swift */; };
 		6DAF7AB52B17C72400305901 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB42B17C72400305901 /* StatsView.swift */; };
 		6DAF7AB72B17C76E00305901 /* DataItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB62B17C76E00305901 /* DataItemView.swift */; };
-		6DAF7AB92B17C79A00305901 /* BottomNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB82B17C79A00305901 /* BottomNavBar.swift */; };
+		6DAF7AB92B17C79A00305901 /* NavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7AB82B17C79A00305901 /* NavBarView.swift */; };
+		6DAF7ABF2B18553D00305901 /* ActivityItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAF7ABE2B18553D00305901 /* ActivityItemView.swift */; };
 		A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829792B1149C9006A9415 /* EcoGiveApp.swift */; };
 		A228297C2B1149C9006A9415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228297B2B1149C9006A9415 /* ContentView.swift */; };
 		A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A228297D2B1149CA006A9415 /* Assets.xcassets */; };
@@ -27,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D3C164E2B2142DE0026CCD9 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		6D3C16522B217FBA0026CCD9 /* ActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListView.swift; sourceTree = "<group>"; };
+		6D3C16542B2180CC0026CCD9 /* ActivityListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityListViewModel.swift; sourceTree = "<group>"; };
+		6D3C16562B21C2260026CCD9 /* ActivityBottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityBottomSheetView.swift; sourceTree = "<group>"; };
 		6DAF7AA02B17BA3200305901 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		6DAF7AA62B17BF5A00305901 /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
 		6DAF7AA82B17BFC700305901 /* ProgressGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressGoalView.swift; sourceTree = "<group>"; };
@@ -37,7 +46,8 @@
 		6DAF7AB22B17C44D00305901 /* TopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 		6DAF7AB42B17C72400305901 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
 		6DAF7AB62B17C76E00305901 /* DataItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItemView.swift; sourceTree = "<group>"; };
-		6DAF7AB82B17C79A00305901 /* BottomNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavBar.swift; sourceTree = "<group>"; };
+		6DAF7AB82B17C79A00305901 /* NavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarView.swift; sourceTree = "<group>"; };
+		6DAF7ABE2B18553D00305901 /* ActivityItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityItemView.swift; sourceTree = "<group>"; };
 		A22829762B1149C9006A9415 /* EcoGive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoGive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22829792B1149C9006A9415 /* EcoGiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoGiveApp.swift; sourceTree = "<group>"; };
 		A228297B2B1149C9006A9415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -79,6 +89,7 @@
 		6DAF7AA32B17BEB000305901 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				6D3C16542B2180CC0026CCD9 /* ActivityListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -89,6 +100,7 @@
 				6DAF7AAC2B17C2C700305901 /* StepData.swift */,
 				6DAF7AAE2B17C33A00305901 /* DataItem.swift */,
 				6DAF7AB02B17C37A00305901 /* DataModel.swift */,
+				6D3C164E2B2142DE0026CCD9 /* Activity.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -101,7 +113,10 @@
 				6DAF7AB22B17C44D00305901 /* TopBarView.swift */,
 				6DAF7AB42B17C72400305901 /* StatsView.swift */,
 				6DAF7AB62B17C76E00305901 /* DataItemView.swift */,
-				6DAF7AB82B17C79A00305901 /* BottomNavBar.swift */,
+				6DAF7AB82B17C79A00305901 /* NavBarView.swift */,
+				6DAF7ABE2B18553D00305901 /* ActivityItemView.swift */,
+				6D3C16522B217FBA0026CCD9 /* ActivityListView.swift */,
+				6D3C16562B21C2260026CCD9 /* ActivityBottomSheetView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,16 +235,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3C164F2B2142DE0026CCD9 /* Activity.swift in Sources */,
 				6DAF7AAF2B17C33A00305901 /* DataItem.swift in Sources */,
 				A22829832B1149CA006A9415 /* Persistence.swift in Sources */,
 				6DAF7AB12B17C37A00305901 /* DataModel.swift in Sources */,
+				6D3C16552B2180CC0026CCD9 /* ActivityListViewModel.swift in Sources */,
 				6DAF7AAD2B17C2C800305901 /* StepData.swift in Sources */,
+				6D3C16532B217FBA0026CCD9 /* ActivityListView.swift in Sources */,
 				6DAF7AAB2B17C20600305901 /* HealthStore.swift in Sources */,
 				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
 				6DAF7AA92B17BFC700305901 /* ProgressGoalView.swift in Sources */,
 				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
-				6DAF7AB92B17C79A00305901 /* BottomNavBar.swift in Sources */,
+				6DAF7ABF2B18553D00305901 /* ActivityItemView.swift in Sources */,
+				6DAF7AB92B17C79A00305901 /* NavBarView.swift in Sources */,
 				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
+				6D3C16572B21C2260026CCD9 /* ActivityBottomSheetView.swift in Sources */,
 				6DAF7AB72B17C76E00305901 /* DataItemView.swift in Sources */,
 				6DAF7AB52B17C72400305901 /* StatsView.swift in Sources */,
 				6DAF7AA72B17BF5A00305901 /* Reward.swift in Sources */,

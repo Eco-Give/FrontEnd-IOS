@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct RewardView: View {
-    @State private var healthStore = HealthStore()
+struct StepCounterView: View {
+    @StateObject private var healthStore = HealthStore()
     var body: some View {
         ZStack {
             AngularGradient(
@@ -27,20 +27,16 @@ struct RewardView: View {
                     .padding(.top, 40)
                 
                 Spacer()
-                StatsView()
-                    .padding(.leading, 40)
-                    .padding(.trailing, 40)
-                        
-                Spacer()
-                BottomNavBar().padding(.bottom, 40)
+//                StatsView()
+//                    .padding(.leading, 40)
+//                    .padding(.trailing, 40)
+//                        
+//                Spacer()
+               // BottomNavBar().padding(.bottom, 40)
             }
         }.task {
             await healthStore.requestAuthorization()
-            do {
-                print("Granted")
-            } catch {
-                print(error)
-            }
+           
         }
         .edgesIgnoringSafeArea(.all)
         .environmentObject(HealthStore())
@@ -48,7 +44,7 @@ struct RewardView: View {
 }
 struct RewardView_Previews: PreviewProvider {
     static var previews: some View {
-        RewardView()
+        StepCounterView()
             
     }
 }

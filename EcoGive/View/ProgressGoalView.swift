@@ -14,12 +14,12 @@ struct ProgressGoalView: View {
     var body: some View {
         ZStack {
             Circle()
-                .stroke(RadialGradient(gradient: Gradient(colors: [Color.black.opacity(0.2), Color.white.opacity(0.3)]), center: .center, startRadius: 80, endRadius: 300), lineWidth: 40)
+                .stroke(RadialGradient(gradient: Gradient(colors: [Color.black.opacity(0.2), Color.white.opacity(0.3)]), center: .center, startRadius: 80, endRadius: 300), lineWidth: 20)
                 .frame(width: 260, height: 260)
                 
             Circle()
                 .trim(from: 0.0, to: manager.goalPercentage)
-                .stroke(LinearGradient(gradient: Gradient(colors: [Color.bottomColor2, Color.red]), startPoint: .top, endPoint: .trailing), style: StrokeStyle(lineWidth: 40, lineCap: .round))
+                .stroke(LinearGradient(gradient: Gradient(colors: [Color.bottomColor2, Color.green]), startPoint: .top, endPoint: .trailing), style: StrokeStyle(lineWidth: 20, lineCap: .round))
                 .frame(width: 260, height: 260)
                 .rotationEffect(.degrees(-90))
                 .shadow(color: Color.bottomColor2, radius: 30)
@@ -32,8 +32,9 @@ struct ProgressGoalView: View {
                     .font(.system(size: 56))
             }.foregroundColor(.white)
                 .task {
-                    print("Goal: \(getFormeattedInt(number: manager.stepData.goal))")
-                    print("\(getFormeattedInt(number: manager.stepData.count))")
+                    manager.updateData()
+                   // print("Goal: \(getFormeattedInt(number: manager.stepData.goal))")
+                    //print("\(getFormeattedInt(number: manager.stepData.count))")
                 }
         }
     }
@@ -45,3 +46,4 @@ struct ProgressGoalView: View {
     }
     
 }
+
