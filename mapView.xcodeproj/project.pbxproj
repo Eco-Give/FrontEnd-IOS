@@ -17,10 +17,7 @@
 		52F4D74A2B1CE0DD00A6E290 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4D7492B1CE0DD00A6E290 /* LocationDetailView.swift */; };
 		52F4D74E2B1CFA4D00A6E290 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F4D74D2B1CFA4D00A6E290 /* SearchBarView.swift */; };
 		5D7EC1D62B17E84400E02D9A /* annotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7EC1D52B17E84400E02D9A /* annotationView.swift */; };
-<<<<<<< Updated upstream
-=======
 		F75926162B216204008BCBE9 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75926152B216204008BCBE9 /* LocationManager.swift */; };
->>>>>>> Stashed changes
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,10 +33,7 @@
 		52F4D7492B1CE0DD00A6E290 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
 		52F4D74D2B1CFA4D00A6E290 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		5D7EC1D52B17E84400E02D9A /* annotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = annotationView.swift; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
-=======
 		F75926152B216204008BCBE9 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
->>>>>>> Stashed changes
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +79,7 @@
 				52CA13C72B1CB9150086FCE8 /* mapView.swift */,
 				52F4D7492B1CE0DD00A6E290 /* LocationDetailView.swift */,
 				52F4D74D2B1CFA4D00A6E290 /* SearchBarView.swift */,
-<<<<<<< Updated upstream
-=======
 				F75926152B216204008BCBE9 /* LocationManager.swift */,
->>>>>>> Stashed changes
 			);
 			path = mapView;
 			sourceTree = "<group>";
@@ -205,10 +196,7 @@
 				52F4D74E2B1CFA4D00A6E290 /* SearchBarView.swift in Sources */,
 				52A15B852B1A6E6900BAFBBD /* LocationService.swift in Sources */,
 				52CA13C82B1CB9150086FCE8 /* mapView.swift in Sources */,
-<<<<<<< Updated upstream
-=======
 				F75926162B216204008BCBE9 /* LocationManager.swift in Sources */,
->>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,10 +329,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = mapView/Info.plist;
-<<<<<<< Updated upstream
-=======
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = aaaaaaa;
->>>>>>> Stashed changes
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,10 +360,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = mapView/Info.plist;
-<<<<<<< Updated upstream
-=======
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = aaaaaaa;
->>>>>>> Stashed changes
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

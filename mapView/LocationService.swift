@@ -4,11 +4,7 @@ class LocationFetcher: ObservableObject {
     @Published var locations: [Location] = []
 
     func fetchLocations() {
-<<<<<<< Updated upstream
-        guard let url = URL(string: "http://172.18.20.178:9090/getall") else {
-=======
         guard let url = URL(string: "http://172.18.8.139:9090/getall") else {
->>>>>>> Stashed changes
             print("Invalid URL")
             return
         }
@@ -30,11 +26,7 @@ class LocationFetcher: ObservableObject {
     }
     // New method to make a call
        func makeCall() {
-<<<<<<< Updated upstream
-           guard let url = URL(string: "http://172.18.20.178:9090/call") else {
-=======
            guard let url = URL(string: "http://172.18.8.139:9090/call") else {
->>>>>>> Stashed changes
                print("Invalid URL")
                return
            }

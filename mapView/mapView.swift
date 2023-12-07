@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-import SwiftUI
-import MapKit
-=======
 /*import SwiftUI
 import MapKit
 
@@ -92,7 +88,6 @@ import SwiftUI
 import MapKit
 import CoreLocation
 
->>>>>>> Stashed changes
 
 struct mapView: View {
     @StateObject private var locationFetcher = LocationFetcher()
@@ -101,9 +96,6 @@ struct mapView: View {
     @State private var searchText = ""
     @State private var showingAddAnnotationSheet = false
     @State private var newAnnotationCoordinate = CLLocationCoordinate2D()
-<<<<<<< Updated upstream
-
-=======
     //@State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194), span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01))
     private let locationManager = CLLocationManager()
 
@@ -123,15 +115,11 @@ struct mapView: View {
           }
       }
     
->>>>>>> Stashed changes
     var body: some View {
         ZStack(alignment: .top) {
             Map(coordinateRegion: $region, annotationItems: locationFetcher.locations) { location in
                 MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: location.lat, longitude: location.long)) {
-<<<<<<< Updated upstream
-=======
                     
->>>>>>> Stashed changes
                     annotationView(for: location.categorie)
                         .onTapGesture {
                             self.selectedLocation = location
@@ -151,14 +139,11 @@ struct mapView: View {
         
         }
         .ignoresSafeArea(.all)
-<<<<<<< Updated upstream
-=======
         .onAppear {
                   setupLocationManager()
                   updateUserLocation()
                   locationFetcher.fetchLocations()
               }
->>>>>>> Stashed changes
     }
 
     private func searchLocation() {
@@ -187,7 +172,4 @@ struct mapView_Previews: PreviewProvider {
         mapView()
     }
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
