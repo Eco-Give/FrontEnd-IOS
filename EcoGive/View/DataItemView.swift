@@ -30,3 +30,6 @@ struct DataItemView: View {
         }.foregroundColor(.white)
     }
 }
+#Preview {
+    DataItemView(dataItem: DataItem(imageName: "drop.fill", imageColor: Color.blue, value: "0", unit: "Mile"))
+}

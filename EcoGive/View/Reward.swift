@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct StepCounterView: View {
+    
     @StateObject private var healthStore = HealthStore()
     var body: some View {
         ZStack {
@@ -23,16 +24,17 @@ struct StepCounterView: View {
                     .padding(.leading, 20)
                     .padding(.trailing, 20)
                     .padding(.top, 44)
+                
                 ProgressGoalView()
-                    .padding(.top, 40)
+                    .padding(.top, 100)
                 
                 Spacer()
-//                StatsView()
-//                    .padding(.leading, 40)
-//                    .padding(.trailing, 40)
-//                        
-//                Spacer()
-               // BottomNavBar().padding(.bottom, 40)
+                StatsView()
+                    .padding(.leading, 40)
+                    .padding(.trailing, 40)
+                        
+                Spacer()
+                
             }
         }.task {
             await healthStore.requestAuthorization()
@@ -45,6 +47,6 @@ struct StepCounterView: View {
 struct RewardView_Previews: PreviewProvider {
     static var previews: some View {
         StepCounterView()
-            
+
     }
 }

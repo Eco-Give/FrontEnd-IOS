@@ -1,5 +1,5 @@
 //
-//  ActivityListViewModel.swift
+//  RankingViewModel.swift
 //  EcoGive
 //
 //  Created by Mahmoud Gharbi on 7/12/2023.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-class ActivityListViewModel: ObservableObject {
-    @Published var activities: [Activity] = []
+class RankingViewModel: ObservableObject {
+    @Published var users: [UserStat] = []
 
     func fetch() {
-        guard let url = URL(string: "http://192.168.1.28:9090/activity/getall") else {
+        guard let url = URL(string: "http://192.168.1.28:9090/userstat/getall") else {
             return
         }
 
@@ -22,12 +22,12 @@ class ActivityListViewModel: ObservableObject {
 
             // Convert to JSON
             do {
-                let decodedActivities = try JSONDecoder().decode([Activity].self, from: data)
+                let decodedUserStats = try JSONDecoder().decode([UserStat].self, from: data)
 
                 // Update the @Published property on the main thread
                 DispatchQueue.main.async {
-                    self.activities = decodedActivities
-                    print(decodedActivities)
+                    self.users = decodedUserStats
+                    print(decodedUserStats)
                 }
             } catch {
                 print(error)
@@ -37,3 +37,5 @@ class ActivityListViewModel: ObservableObject {
         task.resume()
     }
 }
+
+

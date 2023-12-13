@@ -16,6 +16,7 @@ struct ActivityItemView: View {
                 Text(activity.Desc)
                     .font(.title2)
                     .fontWeight(.bold)
+                    .foregroundColor(.black)
                 
                 HStack {
                     Image(systemName: "target")

@@ -13,7 +13,7 @@ struct EcoGiveApp: App {
 
     var body: some Scene {
         WindowGroup {
-            NavBarView()
+            ContentView()
         }
     }
 }

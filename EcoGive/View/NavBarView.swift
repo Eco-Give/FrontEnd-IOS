@@ -35,7 +35,7 @@ struct NavBarView: View {
                 }
                 .tag(2)
 
-            Text("Other Tab 3")
+            RankingView()
                 .tabItem {
                     Image(systemName: "medal.fill")
                     Text("Medal")
