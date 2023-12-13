@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A243C5262B2A52A000FFDA13 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = A243C5252B2A52A000FFDA13 /* CodeScanner */; };
+		A243C5292B2A547000FFDA13 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = A243C5282B2A547000FFDA13 /* URLImage */; };
+		A243C52B2B2A547000FFDA13 /* URLImageStore in Frameworks */ = {isa = PBXBuildFile; productRef = A243C52A2B2A547000FFDA13 /* URLImageStore */; };
 		A261F0EC2B1768E20024AE96 /* EcoGiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F0EB2B1768E20024AE96 /* EcoGiveApp.swift */; };
 		A261F0EE2B1768E20024AE96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F0ED2B1768E20024AE96 /* ContentView.swift */; };
 		A261F0F02B1768E20024AE96 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F0EF2B1768E20024AE96 /* Item.swift */; };
@@ -63,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A243C52B2B2A547000FFDA13 /* URLImageStore in Frameworks */,
+				A243C5262B2A52A000FFDA13 /* CodeScanner in Frameworks */,
+				A243C5292B2A547000FFDA13 /* URLImage in Frameworks */,
 				A261F0FD2B176AB60024AE96 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,6 +179,9 @@
 			name = EcoGive;
 			packageProductDependencies = (
 				A261F0FC2B176AB60024AE96 /* Alamofire */,
+				A243C5252B2A52A000FFDA13 /* CodeScanner */,
+				A243C5282B2A547000FFDA13 /* URLImage */,
+				A243C52A2B2A547000FFDA13 /* URLImageStore */,
 			);
 			productName = EcoGive;
 			productReference = A261F0E82B1768E20024AE96 /* EcoGive.app */;
@@ -204,6 +213,8 @@
 			mainGroup = A261F0DF2B1768E20024AE96;
 			packageReferences = (
 				A261F0FB2B176AB60024AE96 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A243C5242B2A52A000FFDA13 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				A243C5272B2A547000FFDA13 /* XCRemoteSwiftPackageReference "url-image" */,
 			);
 			productRefGroup = A261F0E92B1768E20024AE96 /* Products */;
 			projectDirPath = "";
@@ -460,6 +471,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A243C5242B2A52A000FFDA13 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+		A243C5272B2A547000FFDA13 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.1;
+			};
+		};
 		A261F0FB2B176AB60024AE96 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -471,6 +498,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A243C5252B2A52A000FFDA13 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A243C5242B2A52A000FFDA13 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		A243C5282B2A547000FFDA13 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A243C5272B2A547000FFDA13 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		A243C52A2B2A547000FFDA13 /* URLImageStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A243C5272B2A547000FFDA13 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImageStore;
+		};
 		A261F0FC2B176AB60024AE96 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A261F0FB2B176AB60024AE96 /* XCRemoteSwiftPackageReference "Alamofire" */;

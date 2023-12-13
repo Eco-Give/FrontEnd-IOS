@@ -15,7 +15,7 @@ class EventViewModel: ObservableObject {
     @Published var selectedEvent: Event?
     
     func fetchEvents() {
-        let url = URL(string: "http://172.18.15.242:3000/events")!
+        let url = URL(string: "http://192.168.100.6:3000/events")!
         
         AF.request(url)
             .responseDecodable(of: [Event].self) { response in
@@ -31,7 +31,7 @@ class EventViewModel: ObservableObject {
     }
     
     func fetchEventDetails(eventID: String) {
-        let url = URL(string: "http://172.18.15.242:3000/events/\(eventID)")!
+        let url = URL(string: "http://192.168.100.6:3000/events/\(eventID)")!
         
         AF.request(url)
             .responseDecodable(of: Event.self) { response in

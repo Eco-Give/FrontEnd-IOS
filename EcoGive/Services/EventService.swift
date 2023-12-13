@@ -14,7 +14,7 @@ class EventService {
     static let shared = EventService()
 
     func fetchEvents(completion: @escaping (Result<[Event], Error>) -> Void) {
-        let url = URL(string: "http://172.18.15.242:3000/events")!
+        let url = URL(string: "http://192.168.100.6:3000/events")!
 
         AF.request(url)
             .responseDecodable(of: [Event].self) { response in

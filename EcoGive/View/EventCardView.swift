@@ -10,7 +10,7 @@ struct EventCardView: View {
 
     var body: some View {
         VStack(spacing: 12) {
-            AsyncImageView(url: "http://172.18.15.242:3000/\(event.image ?? "")")
+            AsyncImageView(url: "http://192.168.100.6:3000/\(event.image ?? "")")
                 .frame(width: 300, height: 200)
                 .cornerRadius(16)
                 .shadow(radius: 5)

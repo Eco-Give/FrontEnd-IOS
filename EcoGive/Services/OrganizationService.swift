@@ -13,7 +13,7 @@ class OrganizationService {
     static let shared = OrganizationService()
 
     func fetchOrganizations(completion: @escaping (Result<[Organization], AFError>) -> Void) {
-        let url = "http://172.18.15.242:3000/organizations"
+        let url = "http://192.168.100.6:3000/organizations"
 
         AF.request(url)
             .responseDecodable(of: [Organization].self) { response in

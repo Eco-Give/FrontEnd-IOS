@@ -19,7 +19,7 @@ struct EventDetailView: View {
                         .padding()
                         .scaleEffect(1.2) // Add scale animation
 
-                    AsyncImageView(url: "http://172.18.15.242:3000/\(event.image ?? "")")
+                    AsyncImageView(url: "http://192.168.100.6:3000/\(event.image ?? "")")
                         .frame(width: 350, height: 250)
                         .cornerRadius(30)
                         .shadow(radius: 10)
@@ -99,7 +99,7 @@ struct EventDetailView: View {
                 }
             }
             .sheet(isPresented: $isShowingQRCode) {
-                AsyncImageView(url: "http://172.18.15.242:3000/\(event.qrcode ?? "")")
+                AsyncImageView(url: "http://192.168.100.6:3000/\(event.qrcode ?? "")")
                     .frame(width: 200, height: 200)
                     .cornerRadius(10)
                     .padding()
