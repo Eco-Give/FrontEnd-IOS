@@ -2,85 +2,59 @@
 //  ContentView.swift
 //  EcoGive
 //
-//  Created by oumayma cherif on 24/11/2023.
+//  Created by oumayma cherif on 29/11/2023.
 //
-
 import SwiftUI
-import CoreData
 
 struct ContentView: View {
-    @Environment(\.managedObjectContext) private var viewContext
-
-    @FetchRequest(
-        sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
-        animation: .default)
-    private var items: FetchedResults<Item>
+    @State private var isActive: Bool = false
 
     var body: some View {
         NavigationView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp!, formatter: itemFormatter)")
-                    } label: {
-                        Text(item.timestamp!, formatter: itemFormatter)
+            ZStack {
+                VStack {
+                    Image("1")
+                        .resizable()
+                        .frame(width: 296, height: 324)
+                        .padding(.bottom, 140)
+                        .scaleEffect(isActive ? 1.0 : 1.0)
+                    
+                    Text("Welcome to Eco Give")
+                        .font(.custom("AlmondNougat", size: 24))
+                        .foregroundColor(.turquoise1)
+                        .opacity(isActive ? 1.0 : 1.2)
+                        .padding()
+                }
+                .onAppear {
+                    withAnimation(.easeInOut(duration: 1)) {
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                            isActive = true
+                        }
                     }
                 }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
-            }
-            Text("Select an item")
-        }
-    }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(context: viewContext)
-            newItem.timestamp = Date()
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
-            }
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            offsets.map { items[$0] }.forEach(viewContext.delete)
-
-            do {
-                try viewContext.save()
-            } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-                let nsError = error as NSError
-                fatalError("Unresolved error \(nsError), \(nsError.userInfo)")
+                .navigationBarHidden(true)
+                .background(
+                    NavigationLink(
+                        destination: HomeView(),
+                        isActive: $isActive,
+                        label: {
+                            EmptyView()
+                        }
+                    )
+                    .isDetailLink(false)
+                )
             }
         }
     }
 }
 
-private let itemFormatter: DateFormatter = {
-    let formatter = DateFormatter()
-    formatter.dateStyle = .short
-    formatter.timeStyle = .medium
-    return formatter
-}()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
+}
 
-#Preview {
-    ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+extension Color {
+    static let turquoise = Color(red: 0.0, green: 0.8, blue: 0.8)
+    static let turquoise1 = Color(red: 0.0, green: 0.5, blue: 0.5)
 }
