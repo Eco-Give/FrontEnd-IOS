@@ -7,7 +7,10 @@
 
 import SwiftUI
 struct UserStat : Hashable , Codable {
-    let Level: String
-    let StepCount: String
+    var Level: String
+    var StepCount: String
     let UserId : String
+    let Goal:String
+    let Score:String
+    
 }

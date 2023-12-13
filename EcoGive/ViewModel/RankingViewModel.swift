@@ -11,7 +11,7 @@ class RankingViewModel: ObservableObject {
     @Published var users: [UserStat] = []
 
     func fetch() {
-        guard let url = URL(string: "http://192.168.1.28:9090/userstat/getall") else {
+        guard let url = URL(string: "http://172.20.10.2:9090/userstat/getall") else {
             return
         }
 

@@ -13,7 +13,7 @@ struct StatsView: View {
     
     var body: some View {
         HStack {
-            DataItemView(dataItem: DataItem(imageName: "medal.fill", imageColor: Color.yellow, value: "7", unit: "Rank"))
+            DataItemView(dataItem: DataItem(imageName: "medal.fill", imageColor: Color.yellow, value: manager.userStat.Level, unit: "Rank"))
             Spacer()
                 
             Rectangle()
@@ -22,7 +22,7 @@ struct StatsView: View {
                 .opacity(0.2)
                 
             Spacer()
-            DataItemView(dataItem: DataItem(imageName: "star.fill", imageColor: Color.green, value: "--", unit: "Score"))
+            DataItemView(dataItem: DataItem(imageName: "star.fill", imageColor: Color.green, value: manager.userStat.Score, unit: "Score"))
             Spacer()
                 
             Rectangle()
@@ -31,7 +31,7 @@ struct StatsView: View {
                 .opacity(0.2)
                 
             Spacer()
-            DataItemView(dataItem: DataItem(imageName: "drop.fill", imageColor: Color.blue, value: "0", unit: "Mile"))
+            DataItemView(dataItem: DataItem(imageName: "figure.walk", imageColor: Color.blue, value: manager.userStat.StepCount, unit: "steps"))
         }
     }
 }

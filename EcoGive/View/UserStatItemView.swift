@@ -38,7 +38,7 @@ struct UserStatItemView: View {
 
 struct UserStatItemView_Previews: PreviewProvider {
     static var previews: some View {
-        UserStatItemView(userStat: UserStat(Level: "17", StepCount: "5000", UserId: "1"))
+        UserStatItemView(userStat: UserStat(Level: "17", StepCount: "5000", UserId: "1",Goal: "1000",Score: "3000"))
             .previewLayout(.sizeThatFits)
             .padding()
     }

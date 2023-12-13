@@ -38,9 +38,7 @@ struct RankingView: View {
                                     selectedActivity = user
                                     isBottomSheetPresented.toggle()
                                 }
-//                                .sheet(isPresented: $isBottomSheetPresented) {
-////                                    ActivityBottomSheetView(activity: selectedActivity ?? Activity(Desc: "", Reward: 0, Goal: ""))
-//                                }
+
                         }
                     })
                     .padding(.horizontal, 20) // Adjust horizontal padding

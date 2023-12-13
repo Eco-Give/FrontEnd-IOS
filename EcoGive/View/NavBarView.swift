@@ -19,8 +19,8 @@ struct NavBarView: View {
                 }
                 .tag(0)
 
-            // Add other views for different tabs
-           ActivityListView()
+            
+            ActivityListView()
                 .tabItem {
                     Image(systemName: "gift.fill")
                     Text("Gift")
@@ -28,19 +28,14 @@ struct NavBarView: View {
             
                 .tag(1)
 
-            Text("Other Tab 2")
-                .tabItem {
-                    Image(systemName: "flame.fill")
-                    Text("Flame")
-                }
-                .tag(2)
+            
 
             RankingView()
                 .tabItem {
                     Image(systemName: "medal.fill")
                     Text("Medal")
                 }
-                .tag(3)
+                .tag(2)
         }
         .accentColor(.bottomColor2)
         .background(Color.white)

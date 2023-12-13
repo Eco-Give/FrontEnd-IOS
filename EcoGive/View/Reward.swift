@@ -20,10 +20,7 @@ struct StepCounterView: View {
                 .blur(radius: 70, opaque: true)
                     
             VStack {
-                TopBarView()
-                    .padding(.leading, 20)
-                    .padding(.trailing, 20)
-                    .padding(.top, 44)
+                
                 
                 ProgressGoalView()
                     .padding(.top, 100)

@@ -26,9 +26,9 @@ struct ProgressGoalView: View {
                 
             VStack(spacing: 12) {
                 
-                Text("Goal: \(getFormeattedInt(number: manager.stepData.goal))")
+                Text("Goal: \( manager.userStat.Goal)")
                     .font(.system(size: 18))
-                Text("\(getFormeattedInt(number: manager.stepData.count))")
+                Text("\( manager.dailyStepCount)")
                     .font(.system(size: 56))
             }.foregroundColor(.white)
                 .task {
