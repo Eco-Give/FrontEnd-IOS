@@ -14,15 +14,6 @@ struct ActivityListView: View {
     
     var body: some View {
         ZStack {
-            AngularGradient(
-                gradient: Color.backgroundGradient,
-                center: .bottomTrailing,
-                startAngle: .degrees(170),
-                endAngle: .degrees(270))
-            .blur(radius: 70, opaque: true)
-            
-            
-            
             VStack {
                 Text("Activities")
                     .font(.title)
@@ -49,6 +40,7 @@ struct ActivityListView: View {
                 }
             }
         }
+        .background(Color(hex: 0xAFC8AD))
         .edgesIgnoringSafeArea(.all)
         .onAppear {
             viewModel.fetch()

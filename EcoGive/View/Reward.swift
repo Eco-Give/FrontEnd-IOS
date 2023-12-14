@@ -12,12 +12,7 @@ struct StepCounterView: View {
     @StateObject private var healthStore = HealthStore()
     var body: some View {
         ZStack {
-            AngularGradient(
-                gradient: Color.backgroundGradient,
-                center: .bottomTrailing,
-                startAngle: .degrees(170),
-                endAngle: .degrees(270))
-                .blur(radius: 70, opaque: true)
+            
                     
             VStack {
                 
@@ -33,6 +28,7 @@ struct StepCounterView: View {
                 Spacer()
                 
             }
+            .background(Color(hex: 0xAFC8AD))
         }.task {
             await healthStore.requestAuthorization()
            

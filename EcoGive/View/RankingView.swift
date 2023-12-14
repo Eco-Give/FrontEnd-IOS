@@ -14,15 +14,6 @@ struct RankingView: View {
     
     var body: some View {
         ZStack {
-            AngularGradient(
-                gradient: Color.backgroundGradient,
-                center: .bottomTrailing,
-                startAngle: .degrees(170),
-                endAngle: .degrees(270))
-            .blur(radius: 70, opaque: true)
-            
-            
-            
             VStack {
                 Text("Ranking")
                     .font(.title)
@@ -47,6 +38,7 @@ struct RankingView: View {
                 }
             }
         }
+        .background(Color(hex: 0xAFC8AD))
         .edgesIgnoringSafeArea(.all)
         .onAppear {
             viewModel.fetch()

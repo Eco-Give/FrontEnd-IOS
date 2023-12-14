@@ -31,7 +31,7 @@ struct StatsView: View {
                 .opacity(0.2)
                 
             Spacer()
-            DataItemView(dataItem: DataItem(imageName: "figure.walk", imageColor: Color.blue, value: manager.userStat.StepCount, unit: "steps"))
+            DataItemView(dataItem: DataItem(imageName: "figure.walk", imageColor: Color.blue, value: manager.weeklyStepCount.formatted(), unit: "steps"))
         }
     }
 }

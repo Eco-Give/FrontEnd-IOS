@@ -1,9 +1,3 @@
-//
-//  EcoGiveApp.swift
-//  EcoGive
-//
-//  Created by oumayma cherif on 24/11/2023.
-//
 
 import SwiftUI
 
