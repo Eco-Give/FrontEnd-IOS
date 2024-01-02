@@ -7,193 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A261F0EC2B1768E20024AE96 /* EcoGiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F0EB2B1768E20024AE96 /* EcoGiveApp.swift */; };
-		A261F0EE2B1768E20024AE96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F0ED2B1768E20024AE96 /* ContentView.swift */; };
-		A261F0F02B1768E20024AE96 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F0EF2B1768E20024AE96 /* Item.swift */; };
-		A261F0F22B1768E20024AE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A261F0F12B1768E20024AE96 /* Assets.xcassets */; };
-		A261F0F52B1768E20024AE96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A261F0F42B1768E20024AE96 /* Preview Assets.xcassets */; };
-		A261F0FD2B176AB60024AE96 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A261F0FC2B176AB60024AE96 /* Alamofire */; };
-		A261F1032B176B2C0024AE96 /* EventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F1022B176B2C0024AE96 /* EventListView.swift */; };
-		A261F1052B176B3C0024AE96 /* EventCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F1042B176B3C0024AE96 /* EventCardView.swift */; };
-		A261F1072B176B4C0024AE96 /* EventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F1062B176B4C0024AE96 /* EventDetailView.swift */; };
-		A261F1092B176B590024AE96 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F1082B176B590024AE96 /* HomeView.swift */; };
-		A261F10B2B176B690024AE96 /* OrganizationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F10A2B176B690024AE96 /* OrganizationListView.swift */; };
-		A261F10D2B176B790024AE96 /* OrganizationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F10C2B176B790024AE96 /* OrganizationCardView.swift */; };
-		A261F10F2B176B8D0024AE96 /* OrganizationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F10E2B176B8D0024AE96 /* OrganizationDetailView.swift */; };
-		A261F1112B176BA80024AE96 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F1102B176BA80024AE96 /* EventViewModel.swift */; };
-		A261F1132B176BBC0024AE96 /* OrganizationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F1122B176BBC0024AE96 /* OrganizationViewModel.swift */; };
-		A261F1152B176BCC0024AE96 /* EventService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F1142B176BCC0024AE96 /* EventService.swift */; };
-		A261F1172B176BDE0024AE96 /* OrganizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F1162B176BDE0024AE96 /* OrganizationService.swift */; };
-		A261F1192B176BF00024AE96 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F1182B176BF00024AE96 /* AsyncImageView.swift */; };
-		A261F11B2B176BFB0024AE96 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F11A2B176BFB0024AE96 /* EventModel.swift */; };
-		A261F11D2B176C0A0024AE96 /* OrganizationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A261F11C2B176C0A0024AE96 /* OrganizationModel.swift */; };
-		A26940022B18098900D6B58A /* QRCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26940012B18098900D6B58A /* QRCodeScannerView.swift */; };
-		A2C6A6EC2B17C8A900320715 /* organizationRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A6EB2B17C8A900320715 /* organizationRowView.swift */; };
-		A2C6A6EE2B17D2AC00320715 /* EventCardHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C6A6ED2B17D2AC00320715 /* EventCardHome.swift */; };
+		A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829792B1149C9006A9415 /* EcoGiveApp.swift */; };
+		A228297C2B1149C9006A9415 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A228297B2B1149C9006A9415 /* ContentView.swift */; };
+		A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A228297D2B1149CA006A9415 /* Assets.xcassets */; };
+		A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22829802B1149CA006A9415 /* Preview Assets.xcassets */; };
+		A22829832B1149CA006A9415 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22829822B1149CA006A9415 /* Persistence.swift */; };
+		A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */; };
+		A2830F2A2B139C5300120871 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F292B139C5300120871 /* Network.swift */; };
+		A2830F2C2B139C6C00120871 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2B2B139C6C00120871 /* Event.swift */; };
+		A2830F2E2B139C7E00120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2D2B139C7E00120871 /* test.swift */; };
+		A2830F302B139C8900120871 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2830F2F2B139C8900120871 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A261F0E82B1768E20024AE96 /* EcoGive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoGive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A261F0EB2B1768E20024AE96 /* EcoGiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoGiveApp.swift; sourceTree = "<group>"; };
-		A261F0ED2B1768E20024AE96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A261F0EF2B1768E20024AE96 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		A261F0F12B1768E20024AE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A261F0F42B1768E20024AE96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A261F1022B176B2C0024AE96 /* EventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListView.swift; sourceTree = "<group>"; };
-		A261F1042B176B3C0024AE96 /* EventCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardView.swift; sourceTree = "<group>"; };
-		A261F1062B176B4C0024AE96 /* EventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailView.swift; sourceTree = "<group>"; };
-		A261F1082B176B590024AE96 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		A261F10A2B176B690024AE96 /* OrganizationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationListView.swift; sourceTree = "<group>"; };
-		A261F10C2B176B790024AE96 /* OrganizationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationCardView.swift; sourceTree = "<group>"; };
-		A261F10E2B176B8D0024AE96 /* OrganizationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationDetailView.swift; sourceTree = "<group>"; };
-		A261F1102B176BA80024AE96 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
-		A261F1122B176BBC0024AE96 /* OrganizationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationViewModel.swift; sourceTree = "<group>"; };
-		A261F1142B176BCC0024AE96 /* EventService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventService.swift; sourceTree = "<group>"; };
-		A261F1162B176BDE0024AE96 /* OrganizationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationService.swift; sourceTree = "<group>"; };
-		A261F1182B176BF00024AE96 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
-		A261F11A2B176BFB0024AE96 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
-		A261F11C2B176C0A0024AE96 /* OrganizationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationModel.swift; sourceTree = "<group>"; };
-		A26940012B18098900D6B58A /* QRCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerView.swift; sourceTree = "<group>"; };
-		A2C6A6EB2B17C8A900320715 /* organizationRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = organizationRowView.swift; sourceTree = "<group>"; };
-		A2C6A6ED2B17D2AC00320715 /* EventCardHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCardHome.swift; sourceTree = "<group>"; };
+		A22829762B1149C9006A9415 /* EcoGive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcoGive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A22829792B1149C9006A9415 /* EcoGiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoGiveApp.swift; sourceTree = "<group>"; };
+		A228297B2B1149C9006A9415 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A228297D2B1149CA006A9415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A22829802B1149CA006A9415 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A22829822B1149CA006A9415 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcoGive.xcdatamodel; sourceTree = "<group>"; };
+		A22829872B1149CA006A9415 /* EcoGive.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EcoGive.entitlements; sourceTree = "<group>"; };
+		A22829882B1149CA006A9415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2830F292B139C5300120871 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		A2830F2B2B139C6C00120871 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		A2830F2D2B139C7E00120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		A2830F2F2B139C8900120871 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A261F0E52B1768E20024AE96 /* Frameworks */ = {
+		A22829732B1149C9006A9415 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A261F0FD2B176AB60024AE96 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A261F0DF2B1768E20024AE96 = {
+		A228296D2B1149C9006A9415 = {
 			isa = PBXGroup;
 			children = (
-				A261F0EA2B1768E20024AE96 /* EcoGive */,
-				A261F0E92B1768E20024AE96 /* Products */,
+				A22829782B1149C9006A9415 /* EcoGive */,
+				A22829772B1149C9006A9415 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A261F0E92B1768E20024AE96 /* Products */ = {
+		A22829772B1149C9006A9415 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A261F0E82B1768E20024AE96 /* EcoGive.app */,
+				A22829762B1149C9006A9415 /* EcoGive.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A261F0EA2B1768E20024AE96 /* EcoGive */ = {
+		A22829782B1149C9006A9415 /* EcoGive */ = {
 			isa = PBXGroup;
 			children = (
-				A261F1012B176AE60024AE96 /* Model */,
-				A261F1002B176ADE0024AE96 /* Services */,
-				A261F0FF2B176ACD0024AE96 /* ViewModel */,
-				A261F0FE2B176ABF0024AE96 /* View */,
-				A261F0EB2B1768E20024AE96 /* EcoGiveApp.swift */,
-				A261F0ED2B1768E20024AE96 /* ContentView.swift */,
-				A261F0EF2B1768E20024AE96 /* Item.swift */,
-				A261F0F12B1768E20024AE96 /* Assets.xcassets */,
-				A261F0F32B1768E20024AE96 /* Preview Content */,
+				A2830F282B139C3100120871 /* Services */,
+				A2830F272B139C2300120871 /* View */,
+				A2830F262B139C1100120871 /* Model */,
+				A2830F222B139B2B00120871 /* ViewModel */,
+				A22829792B1149C9006A9415 /* EcoGiveApp.swift */,
+				A228297B2B1149C9006A9415 /* ContentView.swift */,
+				A228297D2B1149CA006A9415 /* Assets.xcassets */,
+				A22829822B1149CA006A9415 /* Persistence.swift */,
+				A22829872B1149CA006A9415 /* EcoGive.entitlements */,
+				A22829882B1149CA006A9415 /* Info.plist */,
+				A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */,
+				A228297F2B1149CA006A9415 /* Preview Content */,
 			);
 			path = EcoGive;
 			sourceTree = "<group>";
 		};
-		A261F0F32B1768E20024AE96 /* Preview Content */ = {
+		A228297F2B1149CA006A9415 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				A261F0F42B1768E20024AE96 /* Preview Assets.xcassets */,
+				A22829802B1149CA006A9415 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A261F0FE2B176ABF0024AE96 /* View */ = {
+		A2830F222B139B2B00120871 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				A261F1022B176B2C0024AE96 /* EventListView.swift */,
-				A261F1042B176B3C0024AE96 /* EventCardView.swift */,
-				A261F1062B176B4C0024AE96 /* EventDetailView.swift */,
-				A261F1082B176B590024AE96 /* HomeView.swift */,
-				A261F10A2B176B690024AE96 /* OrganizationListView.swift */,
-				A261F10C2B176B790024AE96 /* OrganizationCardView.swift */,
-				A261F10E2B176B8D0024AE96 /* OrganizationDetailView.swift */,
-				A2C6A6EB2B17C8A900320715 /* organizationRowView.swift */,
-				A2C6A6ED2B17D2AC00320715 /* EventCardHome.swift */,
-				A26940012B18098900D6B58A /* QRCodeScannerView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		A261F0FF2B176ACD0024AE96 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				A261F1102B176BA80024AE96 /* EventViewModel.swift */,
-				A261F1122B176BBC0024AE96 /* OrganizationViewModel.swift */,
+				A2830F2D2B139C7E00120871 /* test.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		A261F1002B176ADE0024AE96 /* Services */ = {
+		A2830F262B139C1100120871 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A261F1142B176BCC0024AE96 /* EventService.swift */,
-				A261F1162B176BDE0024AE96 /* OrganizationService.swift */,
-				A261F1182B176BF00024AE96 /* AsyncImageView.swift */,
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		A261F1012B176AE60024AE96 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				A261F11A2B176BFB0024AE96 /* EventModel.swift */,
-				A261F11C2B176C0A0024AE96 /* OrganizationModel.swift */,
+				A2830F2B2B139C6C00120871 /* Event.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A2830F272B139C2300120871 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2830F2F2B139C8900120871 /* test.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2830F282B139C3100120871 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2830F292B139C5300120871 /* Network.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A261F0E72B1768E20024AE96 /* EcoGive */ = {
+		A22829752B1149C9006A9415 /* EcoGive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A261F0F82B1768E20024AE96 /* Build configuration list for PBXNativeTarget "EcoGive" */;
+			buildConfigurationList = A228298B2B1149CA006A9415 /* Build configuration list for PBXNativeTarget "EcoGive" */;
 			buildPhases = (
-				A261F0E42B1768E20024AE96 /* Sources */,
-				A261F0E52B1768E20024AE96 /* Frameworks */,
-				A261F0E62B1768E20024AE96 /* Resources */,
+				A22829722B1149C9006A9415 /* Sources */,
+				A22829732B1149C9006A9415 /* Frameworks */,
+				A22829742B1149C9006A9415 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = EcoGive;
-			packageProductDependencies = (
-				A261F0FC2B176AB60024AE96 /* Alamofire */,
-			);
 			productName = EcoGive;
-			productReference = A261F0E82B1768E20024AE96 /* EcoGive.app */;
+			productReference = A22829762B1149C9006A9415 /* EcoGive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A261F0E02B1768E20024AE96 /* Project object */ = {
+		A228296E2B1149C9006A9415 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A261F0E72B1768E20024AE96 = {
+					A22829752B1149C9006A9415 = {
 						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = A261F0E32B1768E20024AE96 /* Build configuration list for PBXProject "EcoGive" */;
+			buildConfigurationList = A22829712B1149C9006A9415 /* Build configuration list for PBXProject "EcoGive" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -201,63 +164,48 @@
 				en,
 				Base,
 			);
-			mainGroup = A261F0DF2B1768E20024AE96;
-			packageReferences = (
-				A261F0FB2B176AB60024AE96 /* XCRemoteSwiftPackageReference "Alamofire" */,
-			);
-			productRefGroup = A261F0E92B1768E20024AE96 /* Products */;
+			mainGroup = A228296D2B1149C9006A9415;
+			productRefGroup = A22829772B1149C9006A9415 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A261F0E72B1768E20024AE96 /* EcoGive */,
+				A22829752B1149C9006A9415 /* EcoGive */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A261F0E62B1768E20024AE96 /* Resources */ = {
+		A22829742B1149C9006A9415 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A261F0F52B1768E20024AE96 /* Preview Assets.xcassets in Resources */,
-				A261F0F22B1768E20024AE96 /* Assets.xcassets in Resources */,
+				A22829812B1149CA006A9415 /* Preview Assets.xcassets in Resources */,
+				A228297E2B1149CA006A9415 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A261F0E42B1768E20024AE96 /* Sources */ = {
+		A22829722B1149C9006A9415 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A261F0EE2B1768E20024AE96 /* ContentView.swift in Sources */,
-				A261F10B2B176B690024AE96 /* OrganizationListView.swift in Sources */,
-				A261F1092B176B590024AE96 /* HomeView.swift in Sources */,
-				A261F1112B176BA80024AE96 /* EventViewModel.swift in Sources */,
-				A261F0F02B1768E20024AE96 /* Item.swift in Sources */,
-				A261F10D2B176B790024AE96 /* OrganizationCardView.swift in Sources */,
-				A261F1172B176BDE0024AE96 /* OrganizationService.swift in Sources */,
-				A261F1072B176B4C0024AE96 /* EventDetailView.swift in Sources */,
-				A261F1192B176BF00024AE96 /* AsyncImageView.swift in Sources */,
-				A26940022B18098900D6B58A /* QRCodeScannerView.swift in Sources */,
-				A261F1132B176BBC0024AE96 /* OrganizationViewModel.swift in Sources */,
-				A261F11D2B176C0A0024AE96 /* OrganizationModel.swift in Sources */,
-				A261F10F2B176B8D0024AE96 /* OrganizationDetailView.swift in Sources */,
-				A2C6A6EE2B17D2AC00320715 /* EventCardHome.swift in Sources */,
-				A261F0EC2B1768E20024AE96 /* EcoGiveApp.swift in Sources */,
-				A261F1032B176B2C0024AE96 /* EventListView.swift in Sources */,
-				A261F1152B176BCC0024AE96 /* EventService.swift in Sources */,
-				A261F11B2B176BFB0024AE96 /* EventModel.swift in Sources */,
-				A2C6A6EC2B17C8A900320715 /* organizationRowView.swift in Sources */,
-				A261F1052B176B3C0024AE96 /* EventCardView.swift in Sources */,
+				A2830F2A2B139C5300120871 /* Network.swift in Sources */,
+				A22829832B1149CA006A9415 /* Persistence.swift in Sources */,
+				A228297C2B1149C9006A9415 /* ContentView.swift in Sources */,
+				A22829862B1149CA006A9415 /* EcoGive.xcdatamodeld in Sources */,
+				A2830F2C2B139C6C00120871 /* Event.swift in Sources */,
+				A2830F302B139C8900120871 /* test.swift in Sources */,
+				A228297A2B1149C9006A9415 /* EcoGiveApp.swift in Sources */,
+				A2830F2E2B139C7E00120871 /* test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A261F0F62B1768E20024AE96 /* Debug */ = {
+		A22829892B1149CA006A9415 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -320,7 +268,7 @@
 			};
 			name = Debug;
 		};
-		A261F0F72B1768E20024AE96 /* Release */ = {
+		A228298A2B1149CA006A9415 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,18 +324,19 @@
 			};
 			name = Release;
 		};
-		A261F0F92B1768E20024AE96 /* Debug */ = {
+		A228298C2B1149CA006A9415 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EcoGive/EcoGive.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoGive/Preview Content\"";
 				DEVELOPMENT_TEAM = 2JM5G466XH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan QR codes";
+				INFOPLIST_FILE = EcoGive/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -406,18 +355,19 @@
 			};
 			name = Debug;
 		};
-		A261F0FA2B1768E20024AE96 /* Release */ = {
+		A228298D2B1149CA006A9415 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EcoGive/EcoGive.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcoGive/Preview Content\"";
 				DEVELOPMENT_TEAM = 2JM5G466XH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan QR codes";
+				INFOPLIST_FILE = EcoGive/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -439,44 +389,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A261F0E32B1768E20024AE96 /* Build configuration list for PBXProject "EcoGive" */ = {
+		A22829712B1149C9006A9415 /* Build configuration list for PBXProject "EcoGive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A261F0F62B1768E20024AE96 /* Debug */,
-				A261F0F72B1768E20024AE96 /* Release */,
+				A22829892B1149CA006A9415 /* Debug */,
+				A228298A2B1149CA006A9415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A261F0F82B1768E20024AE96 /* Build configuration list for PBXNativeTarget "EcoGive" */ = {
+		A228298B2B1149CA006A9415 /* Build configuration list for PBXNativeTarget "EcoGive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A261F0F92B1768E20024AE96 /* Debug */,
-				A261F0FA2B1768E20024AE96 /* Release */,
+				A228298C2B1149CA006A9415 /* Debug */,
+				A228298D2B1149CA006A9415 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		A261F0FB2B176AB60024AE96 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.8.1;
-			};
+/* Begin XCVersionGroup section */
+		A22829842B1149CA006A9415 /* EcoGive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */,
+			);
+			currentVersion = A22829852B1149CA006A9415 /* EcoGive.xcdatamodel */;
+			path = EcoGive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
 		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		A261F0FC2B176AB60024AE96 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = A261F0FB2B176AB60024AE96 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
+/* End XCVersionGroup section */
 	};
-	rootObject = A261F0E02B1768E20024AE96 /* Project object */;
+	rootObject = A228296E2B1149C9006A9415 /* Project object */;
 }
